@@ -1,7 +1,8 @@
 *.idea
 .vscode
 
-
+__pycache__/
+*.pyc
 
 # these rules might exclude image files for figures etc.
 *.ps
