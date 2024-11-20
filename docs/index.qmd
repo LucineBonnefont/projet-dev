@@ -10,9 +10,6 @@ Nous aimerions créer une carte de ce style, avec des changements de couleurs en
 
 ![croquis](images/fluxvelo.png.jpg)
 
-<div style="position: absolute; top: 10px; left: 10px;">
-    <img src="images/logo.png" alt="Logo Montpelli'Cycle" style="width: 100px; height: auto;">
-</div>
 
 # Bienvenue sur Montpelli'Cycle
 
