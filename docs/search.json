@@ -60,13 +60,13 @@
     "href": "index.html",
     "title": "Prévisions",
     "section": "",
-    "text": "Prévisions de trafic\nLe projet principal de ce site web sera d’insérer une carte intéractive qui peut indiquer à tout utilisateur le flux de vélos à Montpellier en fonction de l’heure, du jour ou de la période de l’année.\nNous aimerions créer une carte de ce style, avec des changements de couleurs en fonction de l’importance de vélos dans les rues de la ville:\n\n\n\ncroquis\n\n\n\n&lt;img src=\"images/logo.png\" alt=\"Logo Montpelli'Cycle\" style=\"width: 100px; height: auto;\"&gt;\n\n\n\nBienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
+    "text": "Prévisions de trafic\nLe projet principal de ce site web sera d’insérer une carte intéractive qui peut indiquer à tout utilisateur le flux de vélos à Montpellier en fonction de l’heure, du jour ou de la période de l’année.\nNous aimerions créer une carte de ce style, avec des changements de couleurs en fonction de l’importance de vélos dans les rues de la ville:\n\n\n\ncroquis\n\n\n\n\nBienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
   },
   {
     "objectID": "accueil.html",
     "href": "accueil.html",
     "title": "Montpelli’Cycle",
     "section": "",
-    "text": "&lt;img src=\"images/logo.png\" alt=\"Logo Montpelli'Cycle\" style=\"width: 100px; height: auto;\"&gt;\n\n\nBienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
+    "text": "Logo Montpelli’Cycle\n\n\n\nBienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
   }
 ]
