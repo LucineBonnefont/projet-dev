@@ -1,0 +1,8 @@
+[33mcommit 8a5df3d71bea6032b97ee75700b1c514ef47a31e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: lucine <lucine.bonnefont@etu.umontpellier.fr>
+Date:   Wed Nov 20 11:45:25 2024 +0100
+
+    autres fichirs modifiés
+
+docs/site_libs/bootstrap/bootstrap.min.css
+docs/traffic.ipynb
