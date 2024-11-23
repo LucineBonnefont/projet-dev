@@ -6,7 +6,7 @@ website:
   # Pas de titre ici
   navbar:
     left:
-      - text: "Montpelli'Cycle"
+      - text: "Accueil"
         href: accueil.qmd
       - text: "Prévisions"
         href: index.qmd

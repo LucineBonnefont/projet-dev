@@ -1,5 +1,5 @@
 ---
-title: "Montpelli'Cycle"
+title: "Accueil"
 format: html
 ---
 
