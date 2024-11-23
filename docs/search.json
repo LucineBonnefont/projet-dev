@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "accueil.html",
-    "href": "accueil.html",
-    "title": "Accueil",
+    "objectID": "donnees.html",
+    "href": "donnees.html",
+    "title": "données",
     "section": "",
-    "text": "Bienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
+    "text": "page de données"
   },
   {
     "objectID": "index.html",
@@ -35,10 +35,10 @@
     "text": "Disponibilité des vélos dans Montpellier en temps réel (mise à jour toutes les 15 minutes)\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "données",
+    "objectID": "trafic.html",
+    "href": "trafic.html",
+    "title": "Trafic simulation",
     "section": "",
-    "text": "page de données"
+    "text": "Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.\n\n\nJournée du 23/10/2024\n\n\n\n  \n  Your browser does not support the video tag."
   }
 ]
