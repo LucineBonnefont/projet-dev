@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - text: "Accueil"
-        href: accueil.qmd
+        href: index.qmd
       - text: "Densité du traffic"
         href: density.qmd
       - text: "Traffic"
