@@ -15,7 +15,7 @@ website:
       - text: "Disponibilité des vélos"
         href: dispo.qmd
       - text: "données"
-        href: donnes.qmd
+        href: donnees.qmd
 
 output:
     html:
