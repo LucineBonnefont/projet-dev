@@ -5,6 +5,7 @@ execute:
   echo: false
 jupyter: python3
 ---
+![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 
 Disponibilité des vélos dans Montpellier en temps réel (mise à jour toutes les 15 minutes)
 

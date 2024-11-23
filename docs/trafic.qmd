@@ -5,6 +5,7 @@ execute:
   echo: false
 jupyter: python3
 ---
+![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 
 Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.
 
