@@ -1,0 +1,36 @@
+---
+title: "Trafic simulation"
+format: html
+execute:
+  echo: false
+jupyter: python3
+---
+
+Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.
+
+
+```{python}
+from bike_data import get_bike_data, get_bike_routes
+from simulation import simulation 
+import matplotlib
+from IPython.display import HTML
+import datetime
+from dateutil.relativedelta import relativedelta
+import locale
+locale.setlocale(locale.LC_TIME,'')
+
+# simulation_date = '2024-09-30'
+simulation_date = datetime.date.today() + relativedelta(months=-1)
+print(f'Journée du {simulation_date.strftime("%d/%m/%Y")}')
+
+# Retrieve stations and routes
+stations, trajets = get_bike_data(simulation_date)
+
+# Get bike routes based on stations and trips
+bikes_routes = get_bike_routes(stations, trajets)
+
+# Run the simulation with the generated routes
+anim = simulation(bikes_routes, simulation_date)
+HTML(anim.to_html5_video())
+
+```
