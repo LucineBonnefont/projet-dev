@@ -1,5 +1,5 @@
 ---
-title: "Densité du traffic"
+title: "Densité du trafic"
 format: html
 execute:
   echo: false
