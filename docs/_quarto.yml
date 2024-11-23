@@ -8,8 +8,6 @@ website:
     left:
       - text: "Accueil"
         href: accueil.qmd
-      - text: "Prévisions"
-        href: index.qmd
       - text: "Densité du traffic"
         href: density.qmd
       - text: "Traffic"
