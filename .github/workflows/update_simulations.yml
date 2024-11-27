@@ -34,9 +34,9 @@ jobs:
         working-directory: docs
         run: quarto render density.qmd
 
-      - name: Render traffic.html
+      - name: Render trafic.html
         working-directory: docs
-        run: quarto render traffic.qmd
+        run: quarto render trafic.qmd
 
       - name: Commit and Push Changes
         env:
