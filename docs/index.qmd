@@ -1,20 +1,12 @@
 ---
-title: "Prévisions"
+title: "Accueil"
+format: html
 ---
 
-# Prévisions de trafic
 
-Le projet principal de ce site web sera d'insérer une carte intéractive qui peut indiquer à tout utilisateur le flux de vélos à Montpellier en fonction de l'heure, du jour ou de la période de l'année.
+![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 
-Nous aimerions créer une carte de ce style, avec des changements de couleurs en fonction de l'importance de vélos dans les rues de la ville:
-
-![croquis](images/fluxvelo.png.jpg)
-
-<div style="position: absolute; top: 10px; left: 10px;">
-    <img src="images/logo.png" alt="Logo Montpelli'Cycle" style="width: 100px; height: auto;">
-</div>
 
 # Bienvenue sur Montpelli'Cycle
 
 Découvrez les données et analyses du trafic à vélos à Montpellier !
-

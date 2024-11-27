@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "projet_developpement_logiciel.html",
-    "href": "projet_developpement_logiciel.html",
-    "title": "projet_developpement_logiciel",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "projet_developpement_logiciel.html#quarto",
-    "href": "projet_developpement_logiciel.html#quarto",
-    "title": "projet_developpement_logiciel",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
+    "objectID": "donnees.html",
+    "href": "donnees.html",
     "title": "données",
     "section": "",
     "text": "page de données"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Accueil",
+    "section": "",
+    "text": "Bienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
+  },
+  {
+    "objectID": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
+    "href": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
+    "title": "Densité du trafic",
+    "section": "Densité du traffic sur la journée du mois dernier.",
+    "text": "Densité du traffic sur la journée du mois dernier.\n\n\nJournée du 27/10/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
   },
   {
     "objectID": "dispo.html",
@@ -28,45 +28,10 @@
     "text": "Disponibilité des vélos dans Montpellier en temps réel (mise à jour toutes les 15 minutes)\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
   },
   {
-    "objectID": "density.html",
-    "href": "density.html",
-    "title": "Densité du traffic",
+    "objectID": "trafic.html",
+    "href": "trafic.html",
+    "title": "Trafic simulation",
     "section": "",
-    "text": "Journée du 19/10/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
-  },
-  {
-    "objectID": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
-    "href": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
-    "title": "Densité du traffic",
-    "section": "",
-    "text": "Journée du 19/10/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Trafic",
-    "section": "",
-    "text": "conditions de circulation\nCette page contient des informations sur le projet."
-  },
-  {
-    "objectID": "traffic.html",
-    "href": "traffic.html",
-    "title": "Traffic simulation",
-    "section": "",
-    "text": "Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.\n\n\nJournée du 19/10/2024\n\n\n\n  \n  Your browser does not support the video tag."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prévisions",
-    "section": "",
-    "text": "Prévisions de trafic\nLe projet principal de ce site web sera d’insérer une carte intéractive qui peut indiquer à tout utilisateur le flux de vélos à Montpellier en fonction de l’heure, du jour ou de la période de l’année.\nNous aimerions créer une carte de ce style, avec des changements de couleurs en fonction de l’importance de vélos dans les rues de la ville:\n\n\n\ncroquis\n\n\n\n&lt;img src=\"images/logo.png\" alt=\"Logo Montpelli'Cycle\" style=\"width: 100px; height: auto;\"&gt;\n\n\n\nBienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
-  },
-  {
-    "objectID": "accueil.html",
-    "href": "accueil.html",
-    "title": "Montpelli’Cycle",
-    "section": "",
-    "text": "&lt;img src=\"images/logo.png.png\" alt=\"Logo Montpelli'Cycle\" style=\"width: 100px; height: auto;\"&gt;\n\n\nBienvenue sur Montpelli’Cycle\nDécouvrez les données et analyses du trafic à vélos à Montpellier !"
+    "text": "Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.\n\n\nJournée du 27/10/2024\n\n\n\n  \n  Your browser does not support the video tag."
   }
 ]

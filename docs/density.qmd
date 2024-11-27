@@ -1,10 +1,11 @@
 ---
-title: "Densité du traffic"
+title: "Densité du trafic"
 format: html
 execute:
   echo: false
 jupyter: python3
 ---
+![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 
 ## Densité du traffic sur la journée du mois dernier.
 

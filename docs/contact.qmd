@@ -1,7 +1,0 @@
----
-title: "données"
----
-
-# page de données
-
-

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Montpelli’Cycle – Flux de vélos à Montpellier</title>
+<title>données</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-35b661c73272c531296c3b360bfb6fcf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,11 +76,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Flux de vélos à Montpellier</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -88,27 +83,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./accueil.html" aria-current="page"> 
-<span class="menu-text">Montpelli’Cycle</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Prévisions</span></a>
+<span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./density.html"> 
-<span class="menu-text">Densité du traffic</span></a>
+<span class="menu-text">Densité du trafic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./traffic.html"> 
-<span class="menu-text">Traffic</span></a>
+    <a class="nav-link" href="./trafic.html"> 
+<span class="menu-text">Trafic</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./dispo.html"> 
 <span class="menu-text">Disponibilité des vélos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link active" href="./donnees.html" aria-current="page"> 
 <span class="menu-text">données</span></a>
   </li>  
 </ul>
@@ -128,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Montpelli’Cycle</h1>
+<h1 class="title">données</h1>
 </div>
 
 
@@ -145,12 +136,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="position: absolute; top: 10px; left: 10px;">
-<pre><code>&lt;img src="images/logo.png.png" alt="Logo Montpelli'Cycle" style="width: 100px; height: auto;"&gt;</code></pre>
-</div>
-<section id="bienvenue-sur-montpellicycle" class="level1">
-<h1>Bienvenue sur Montpelli’Cycle</h1>
-<p>Découvrez les données et analyses du trafic à vélos à Montpellier !</p>
+<p><img src="images/logo.png" class="img-fluid" style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"></p>
+<section id="page-de-données" class="level1">
+<h1>page de données</h1>
 
 
 </section>
@@ -238,8 +226,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -350,7 +336,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
