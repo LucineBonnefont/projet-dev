@@ -21,4 +21,5 @@ output:
     html:
       theme: cosmo
       css: styles/custom.css
-      toc: true
+      html-math-method: webtex
+

@@ -1,14 +1,166 @@
 body {
-    background-color: #f8f9fa;
-  }
-  h1 {
-    color: #007bff;
-  }
-  /* Styles pour le logo */
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #2a6f97; /* Changez cette couleur selon vos préférences */
+  border-bottom: 2px solid #1a4d68; /* Optionnel : ajoute une bordure contrastante */
+}
+
+.navbar a {
+  color: #ffffff; /* Couleur du texte des liens */
+}
+
+.navbar a:hover {
+  color: #070133; /* Couleur au survol */
+}
+
+header h1 {
+  text-align: center; /* Centre le titre horizontalement */
+  font-family: 'Poppins', sans-serif; /* Police élégante et moderne */
+  font-size: 3rem; /* Taille du texte pour le rendre proéminent */
+  font-weight: 600; /* Un poids moyen pour un rendu professionnel */
+  color: #2a6f97; /* Une couleur bleue douce, agréable pour le web */
+  margin-top: 0rem; /* Un léger espacement au-dessus */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Une ombre discrète pour le texte */
+}
+
+/* Styles pour le logo */
 img[src="images/logo.png"] {
   position: absolute;
   top: 10px;
   left: 10px;
+  z-index: -1; /* Envoie la bannière derrière le contenu principal */
   width: 100px; /* Ajustez la taille du logo selon vos préférences */
   height: auto; /* Conserve les proportions de l'image */
+}
+
+/* Image bannière */
+.banner {
+  position: absolute; /* S'assure que la bannière est indépendante des autres éléments */
+  top: 170px;
+  left: 0;
+  width: 100vw; /* Prend exactement 100% de la largeur de l'écran */
+  height: calc(100vh); /* Prend exactement 100% de la hauteur de l'écran */
+  object-fit: cover; /* Assure que l'image est ajustée sans déformation */
+  z-index: -2; /* Envoie la bannière derrière le contenu principal */
+  margin: 0; /* Supprime les marges automatiques */
+  padding: 0; /* Supprime les espacements automatiques */
+  filter: brightness(0.6); /* Légère transparence pour un effet estompé */
+}
+
+/* Contenu de la bannière */
+.banner-content {
+  display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+  flex-direction: row; /* Aligne les éléments sur une ligne */
+  align-items: center; /* Centre les éléments verticalement */
+  justify-content: space-between; /* Sépare le texte et les boutons */
+  position: absolute; /* Place les éléments par rapport à la bannière */
+  top: 80%; /* Positionne le conteneur verticalement au centre */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px !important; /* Ajoute un peu d'espace interne pour éviter que les éléments touchent les bords */
+  height: 100%; /* S'assure que le contenu occupe toute la hauteur de la bannière */
+  width: 100%; /* Assure que le contenu occupe toute la largeur disponible */
+  box-sizing: border-box; /* Inclut le padding dans les dimensions */
+}
+
+/* Style du texte dans le banner */
+.banner-content .banner-text {
+  text-align: left; /* Aligne le texte à gauche */
+  font-size: 18px; /* Taille du texte */
+  font-family: 'Satisfy', sans-serif; /* Police du texte */
+  color: #093145; /* Couleur du texte */
+  margin-bottom: 0; /* Réduit l'espacement en dessous du texte */
+  background: linear-gradient(135deg, rgba(252, 253, 254, 0.7), rgba(251, 251, 252, 0.7)); /* Dégradé sombre pour un effet moderne */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Ombre portée pour donner un effet de profondeur */
+  border: 3px solid #2a6f97; /* Bordure blanche autour du texte */
+  max-width: 40%; /* Limite la largeur du texte */
+  padding: 20px;
+  border-radius: 5px; /* Coins arrondis sur le fond */
+}
+
+/* Conteneur des boutons */
+.banner-content .buttons-container {
+  display: flex; /* Utilise Flexbox pour aligner les boutons */
+  flex-direction: column; /* Aligne les boutons et les flèches verticalement */
+  align-items: center; /* Centre les éléments horizontalement */
+  gap: 0px; /* Espacement entre les boutons et les flèches */
+}
+
+
+/* Style des boutons */
+.banner-content .btn {
+  background-color: #2a6f97; /* Couleur des boutons */
+  color: white;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(1, 44, 56, 0.984);
+  transition: all 0.3s ease;
+  z-index: 2; /* S'assure que les boutons sont au-dessus de l'image */
+}
+
+.banner-content .btn:hover {
+  background-color: #0056b3; /* Couleur au survol */
+  transform: scale(1.05); /* Légère mise en avant */
+}
+
+/* Flèches entre les boutons */
+.banner-content .arrow {
+  font-size: 50px;
+  font-weight: normal; /* Rendre la flèche plus épaisse */
+  color: white;
+  margin: 10px; /* Espacement entre les flèches et les boutons */
+  line-height: 0;
+  position: relative;
+  top: 5px; /* Ajuste la position de la flèche */
+  z-index: 2; /* Envoie la bannière derrière le contenu principal */
+  transform: scale(1.2); /* Agrandit légèrement la flèche */
+}
+
+/* Utilisation de flèches Unicode */
+.banner-content .arrow-left::before {
+  content: "→"; /* Flèche gauche */
+}
+
+.banner-content .arrow-right::before {
+  content: "→"; /* Flèche droite */
+}
+
+#map-title {
+  text-align: center; /* Centre le titre horizontalement */
+  font-family: 'Poppins', sans-serif; /* Assure une police moderne */
+  font-size: 1.3rem; /* Taille du titre */
+  color: #2a6f97; /* Couleur similaire à celle utilisée dans le reste de la page */
+  margin-top: 650px; /* Espacement entre le titre et la carte */
+}
+
+/* Carte interactive */
+#map {
+  width: 100%;
+  border: 2px solid #032953;
+  border-radius: 5px;
+  margin-bottom: 650px; /* Espacement au-dessus de la carte */
+}
+
+/* Titre des témoignages */
+h3 {
+  color: #2a6f97; /* Couleur du titre */
+  font-size: 20px; /* Taille du texte */
+  font-weight: bold; /* Met en gras le titre */
+  margin-bottom: 10px; /* Espacement sous le titre */
+  text-align: left; /* Alignement du titre */
+}
+
+/* Témoignages */
+blockquote {
+  font-size: 16px;
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #2a6f97;
+  padding-left: 10px;
+  margin-top: 0px; /* Espacement au-dessus de la carte */
 }

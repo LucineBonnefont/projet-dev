@@ -28,10 +28,25 @@
     "text": "Disponibilité des vélos dans Montpellier en temps réel (mise à jour toutes les 15 minutes)\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
   },
   {
+<<<<<<< HEAD
     "objectID": "trafic.html",
     "href": "trafic.html",
     "title": "Trafic simulation",
     "section": "",
     "text": "Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.\n\n\nJournée du 28/10/2024\n\n\n\n  \n  Your browser does not support the video tag."
+=======
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Le vélo au cœur de la ville",
+    "section": "",
+    "text": "Découvrez Montpellier autrement grâce à notre guide dédié aux cyclistes ! Que vous soyez un habitué du vélo ou un débutant, nous vous proposons les meilleurs itinéraires pour explorer la ville, éviter les zones encombrées et profiter pleinement de vos sorties. Trouvez en un clin d’œil les stations où prendre un vélo ou garer le vôtre en toute sécurité. Pratique, écologique et agréable, le vélo est le moyen idéal pour vivre Montpellier à votre rythme. Laissez-nous vous guider dans cette aventure à deux roues !\n\nTrouvez le meilleur chemin\n→\nvotre vélo\n→\net plus qu’à pédaler !\n\n\nRepérez-vous dans Montpellier!\n\n\n\n\n\n\n\n\nCe qu’en disent les cyclistes\n\n“Montpellier est parfaite pour les cyclistes, surtout grâce aux nouvelles pistes cyclables sécurisées.”\n– Paul, réside à Port Marianne\n“J’utilise le site tous les jours, il me fait gagner 20min tous les matins pour me rendre au travail grâce aux cartes de prévisions.”\n– Marie, réside à Hopitaux Facultés\n“Chaque matin une petite balade en vélo, et pas une seconde de perdue pour trouver un vélo de libre, seulement besoin de ce site!”\n– Charles, réside sur la place de la Comédie"
+  },
+  {
+    "objectID": "index.html#carte-interactive-et-témoignages",
+    "href": "index.html#carte-interactive-et-témoignages",
+    "title": "Accueil",
+    "section": "Carte interactive et témoignages",
+    "text": "Carte interactive et témoignages\n\nCarte Interactive\n\n\n\n\n\n\n\n\nCe qu’en disent les cyclistes\n\n“Montpellier est parfaite pour les cyclistes, surtout grâce aux nouvelles pistes cyclables sécurisées.”\n– Paul, résident de Port Marianne"
+>>>>>>> f447b97 (page d'accueil)
   }
 ]
