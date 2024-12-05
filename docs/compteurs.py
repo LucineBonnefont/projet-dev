@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Chargement du Fichier CSV
-data2 = pd.read_csv('MMM_MMM_GeolocCompteurs.csv')
+data2 = pd.read_csv('data/MMM_MMM_GeolocCompteurs.csv')
 
 # Conversion des Colonnes de Latitude et Longitude au Format Numérique
 data2['Latitude'] = pd.to_numeric(data2['Latitude'], errors='coerce')
@@ -58,7 +58,7 @@ def plot_bike_data(data):
 
 data2 = get_bike_data('2023-01-01')
 plot_bike_data(data2)
- """
+"""
 Ce code crée  un graphe OCP qui localise tous les compteurs de vélo de
 la ville de Montpellier pour une date spécifique.
 """
