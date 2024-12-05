@@ -84,7 +84,7 @@ else:
 HTML(map_obj._repr_html_()) 
 
 ```
-
+#Localisation des compteurs de Vélo à Montpellier
 ```{python}
 import numpy as np
 import pandas as pd
@@ -136,22 +136,14 @@ fig.update_layout(
 html_file = "OCP.html"
 fig.write_html(html_file)
 print(f"Graphique statique sauvegardé sous {html_file}")
+#'2023-01-01'
 
-# Exemple de fonction pour récupérer et tracer des données supplémentaires (si définie)
-def get_bike_data(date):
-    return data2
-
-def plot_bike_data(data):
-    print(f"Tracé des données de vélo pour la date : {data}")
-
-data2 = get_bike_data('2023-01-01')
-plot_bike_data(data2)
 ```
 
 ## Visualisation des Compteurs de Vélo
 
 <iframe
-    src="dispo.html"
+    src="OCP.html"
     width="100%"
     height="600px"
     frameborder="0"
