@@ -58,3 +58,7 @@ def plot_bike_data(data):
 
 data2 = get_bike_data('2023-01-01')
 plot_bike_data(data2)
+ """
+Ce code crée  un graphe OCP qui localise tous les compteurs de vélo de
+la ville de Montpellier pour une date spécifique.
+"""
