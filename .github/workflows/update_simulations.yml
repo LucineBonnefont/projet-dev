@@ -44,9 +44,16 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config pull.rebase false  # Utilisation d'une fusion classique
-          git pull origin main
-          git add docs/
-          git commit -m "Update traffic.html et density.html avec les données du mois dernier"
+          
+          # Vérifier et committer uniquement s'il y a des modifications
+          if [[ $(git status --porcelain) ]]; then
+            git add docs/
+            git commit -m "Update traffic.html et density.html avec les données du mois dernier"
+          fi
+      
+          # Pull avec gestion de fusion automatique (fast-forward only)
+          git pull --rebase=false --strategy-option=theirs origin main
+      
+          # Pousser les modifications
           git push
           
