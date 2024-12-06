@@ -25,7 +25,7 @@
     "href": "dispo.html",
     "title": "Disponibilité des vélos",
     "section": "",
-    "text": "Disponibilité des vélos dans Montpellier en temps réel (mise à jour toutes les 15 minutes)\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
+    "text": "Disponibilité des vélos dans Montpellier en temps réel (mise à jour toutes les 15 minutes)\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n#Localisation des compteurs de Vélo à Montpellier\nGraphique statique sauvegardé sous OCP.html"
   },
   {
     "objectID": "trafic.html",
@@ -33,5 +33,12 @@
     "title": "Trafic simulation",
     "section": "",
     "text": "Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.\n\n\nJournée du 03/11/2024\n\n\n\n  \n  Your browser does not support the video tag."
+  },
+  {
+    "objectID": "dispo.html#visualisation-des-compteurs-de-vélo",
+    "href": "dispo.html#visualisation-des-compteurs-de-vélo",
+    "title": "Disponibilité des vélos",
+    "section": "Visualisation des Compteurs de Vélo",
+    "text": "Visualisation des Compteurs de Vélo"
   }
 ]
