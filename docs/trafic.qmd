@@ -9,13 +9,12 @@ css: styles/custom.css
 ---
 ![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 
-###  **Plongez dans les trajets des cyclistes montpelliérains !**  
 
 Que révèlent les trajets des cyclistes dans Montpellier ? Grâce à une analyse des données de ce jour un mois plus tôt, cette vidéo immersive montre **les flux de déplacement en temps réel** à travers la ville.  
  
 - **Quels quartiers sont les plus connectés ?**  
 - **Quelles routes sont privilégiées aux heures de pointe ?**  
-- **comment améliorer la mobilité durable à Montpellier ?**
+- **Comment améliorer la mobilité durable à Montpellier ?**
    
 
 Que vous soyez cycliste, citadin curieux ou décideur, cette visualisation peut vous inspirer à mieux comprendre la dynamique des trajets urbains. 

@@ -16,7 +16,7 @@ website:
         href: dispo.qmd
       - text: "Étude"
         href: "etude.qmd"
-      - text: "données"
+      - text: "Données"
         href: donnees.qmd
 
 output:
