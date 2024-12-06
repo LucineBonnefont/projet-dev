@@ -48,6 +48,17 @@ img[src="images/logo.png"] {
   padding: 0; /* Supprime les espacements automatiques */
   filter: brightness(0.6); /* Légère transparence pour un effet estompé */
 }
+.banner::after {
+  content: "© OT Montpellier - Place de la Comédie à Montpellier, en Occitanie.";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  color: white;
+  font-size: 0.8em;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
 
 /* Contenu de la bannière */
 .banner-content {
