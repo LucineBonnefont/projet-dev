@@ -44,8 +44,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase false  # Utilisation d'une fusion classique
+          git pull origin main
           git add docs/
           git commit -m "Update traffic.html et density.html avec les données du mois dernier"
-          git pull origin main
           git push
           
