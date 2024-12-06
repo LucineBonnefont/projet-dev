@@ -91,7 +91,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Chargement du Fichier CSV
-data2 = pd.read_csv('MMM_MMM_GeolocCompteurs.csv')
+data2 = pd.read_csv('data/MMM_MMM_GeolocCompteurs.csv')
 
 # Conversion des Colonnes de Latitude et Longitude au Format Numérique
 data2['Latitude'] = pd.to_numeric(data2['Latitude'], errors='coerce')
