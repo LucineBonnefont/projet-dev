@@ -14,6 +14,8 @@ website:
         href: trafic.qmd
       - text: "Disponibilité des vélos"
         href: dispo.qmd
+      - text: "Étude"
+        href: "etude.qmd"
       - text: "données"
         href: donnees.qmd
 

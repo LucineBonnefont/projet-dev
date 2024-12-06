@@ -4,6 +4,8 @@ format: html
 execute:
   echo: false
 jupyter: python3
+css: styles/custom.css
+
 ---
 ![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 

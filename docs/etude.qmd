@@ -1,0 +1,29 @@
+---
+title: "Étude"
+css: styles/custom.css
+
+---
+![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
+
+<div class="etude-section">
+
+### Quels sont les quartiers de Montpellier les plus adeptes du vélo ?  
+
+
+
+Avec une prise de conscience écologique croissante, de plus en plus d’habitants se tournent vers des modes de transport respectueux de l’environnement. Mais **quels quartiers de Montpellier montrent l’exemple en adoptant le vélo au quotidien ?**  
+
+
+
+Nous avons mené une **étude** pour analyser cette évolution. Découvrez :  
+- 🗓️ **Les tendances d’utilisation des vélos en 2023**  
+- 🚲 **Les changements observés en 2024**  
+
+Lequel de ces quartiers sera en tête du mouvement écologique ?  
+
+**Et si c’était le vôtre ?**  
+Inspirons-nous mutuellement pour faire de Montpellier une ville toujours plus verte ! 🌿
+
+</div>
+
+

@@ -157,10 +157,41 @@ h3 {
 
 /* Témoignages */
 blockquote {
-  font-size: 16px;
+  font-size: 20px;
   font-style: italic;
   color: #555;
   border-left: 4px solid #2a6f97;
   padding-left: 10px;
   margin-top: 0px; /* Espacement au-dessus de la carte */
+}
+
+.etude-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin:  20px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.etude-section h3 {
+  color: #b7c0cd;
+  font-size: 1.8rem;
+}
+
+.etude-section p {
+  margin: 10px 0;
+}
+
+.etude-section ul {
+  margin: 10px 0 0 20px;
+}
+
+.etude-section ul li {
+  list-style: none;
+}
+
+.etude-section ul li::before {
+  content: "✔️ ";
+  color: #4caf50;
+  font-weight: bold;
 }

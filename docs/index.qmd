@@ -9,6 +9,7 @@ css: styles/custom.css
 
 
 ![ ](images/fontaine-place-comedie-montpellier.webp){.banner}
+<small>© OT Montpellier - Place de la Comédie à Montpellier, en Occitanie.</small>
 
 <div class="banner-content">
 

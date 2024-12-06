@@ -1,8 +1,51 @@
 ---
-title: "données"
+title: "Données"
+css: styles/custom.css
+
 ---
 ![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 
-# page de données
+# Description des données utilisées
+
+Notre site exploite des données ouvertes fournies par la Métropole de Montpellier pour vous offrir des outils interactifs et simplifier vos déplacements à vélo. Voici les jeux de données que nous utilisons :
+
+---
+
+## 1. Trajets réalisés par les vélos VéloMagg  
+**Lien :** [Courses des vélos VéloMagg de Montpellier Méditerranée Métropole](https://data.montpellier3m.fr/dataset/courses-des-velos-velomagg-de-montpellier-mediterranee-metropole)  
+
+Ces données recensent les trajets effectués entre les stations VéloMagg depuis mai 2021. Elles nous permettent de :  
+- Cartographier les itinéraires les plus fréquentés.  
+- Analyser les tendances et horaires des déplacements.  
+- Proposer des prévisions de trafic pour optimiser vos trajets.
+
+---
+
+## 2. Comptages des vélos et piétons par éco-compteurs  
+**Lien :** [Comptages des vélos et piétons issus des compteurs de vélo](https://data.montpellier3m.fr/dataset/comptages-velo-et-pieton-issus-des-compteurs-de-velo)  
+
+Ces données proviennent des éco-compteurs installés à des points stratégiques de la Métropole. Elles enregistrent :  
+- Les passages horaires des vélos (et parfois des piétons).  
+- Les tendances de trafic, avec des mises à jour quotidiennes.
+
+Elles nous aident à :  
+- Identifier les zones les plus fréquentées.  
+- Recommander des itinéraires pour éviter les trajets surchargés.
+
+---
+
+## 3. Disponibilité des stations VéloMagg en temps réel  
+**Lien :** [Disponibilité des places VéloMagg en temps réel](https://data.montpellier3m.fr/dataset/disponibilite-des-places-velomagg-en-temps-reel)  
+
+Cette API fournit des informations actualisées sur :  
+- Le nombre de vélos disponibles dans chaque station.  
+- Le nombre de places libres pour y déposer un vélo.
+
+Elle nous permet de :  
+- Afficher en temps réel les stations à proximité avec des vélos ou des places libres.  
+- Simplifier la planification de vos trajets.
 
 
+---
+
+Grâce à ces données, notre objectif est de rendre vos trajets à vélo plus fluides, pratiques et agréables dans la Métropole de Montpellier.
