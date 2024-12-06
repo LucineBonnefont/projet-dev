@@ -34,7 +34,7 @@ def get_bike_data(analysis_date):
         stations[name] = (lon, lat)
 
     # Charger le fichier CSV
-    data = pd.read_csv('data/TAM_MMM_CoursesVelomagg.csv')
+    data = pd.read_csv('data/TAM_MMM_CoursesVelomagg.csv', low_memory=False)
 
     # Convertir les colonnes de date au format datetime
     data['Departure'] = pd.to_datetime(data['Departure'])
