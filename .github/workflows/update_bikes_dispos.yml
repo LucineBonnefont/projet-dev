@@ -37,8 +37,16 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          git commit -m "Update dispo.html with real time data"
-          git pull
+          
+          # Vérifier et committer uniquement s'il y a des modifications
+          if [[ $(git status --porcelain) ]]; then
+            git add docs/
+            git commit -m "Update dispo.html with real time data"
+          fi
+      
+          # Pull avec gestion de fusion automatique (fast-forward only)
+          git pull --rebase=false --strategy-option=theirs origin main
+      
+          # Pousser les modifications
           git push
           
