@@ -18,7 +18,7 @@
     "href": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
     "title": "Densité du trafic",
     "section": "Densité du traffic sur la journée du mois dernier.",
-    "text": "Densité du traffic sur la journée du mois dernier.\n\n\nJournée du 03/11/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
+    "text": "Densité du traffic sur la journée du mois dernier.\n\n\nJournée du 06/11/2024\n\n\n/home/runner/work/projet-dev/projet-dev/docs/bike_data.py:37: DtypeWarning:\n\nColumns (16) have mixed types. Specify dtype option on import or set low_memory=False.\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
   },
   {
     "objectID": "dispo.html",
@@ -28,17 +28,17 @@
     "text": "Disponibilité des vélos dans Montpellier en temps réel (mise à jour toutes les 15 minutes)\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n#Localisation des compteurs de Vélo à Montpellier\nGraphique statique sauvegardé sous OCP.html"
   },
   {
-    "objectID": "trafic.html",
-    "href": "trafic.html",
-    "title": "Trafic simulation",
-    "section": "",
-    "text": "Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.\n\n\nJournée du 03/11/2024\n\n\n\n  \n  Your browser does not support the video tag."
-  },
-  {
     "objectID": "dispo.html#visualisation-des-compteurs-de-vélo",
     "href": "dispo.html#visualisation-des-compteurs-de-vélo",
     "title": "Disponibilité des vélos",
     "section": "Visualisation des Compteurs de Vélo",
     "text": "Visualisation des Compteurs de Vélo"
+  },
+  {
+    "objectID": "trafic.html",
+    "href": "trafic.html",
+    "title": "Trafic simulation",
+    "section": "",
+    "text": "Simulation du traffic de vélo dans Montpellier sur la journée du mois dernier.\n\n\nJournée du 06/11/2024\n\n\n/home/runner/work/projet-dev/projet-dev/docs/bike_data.py:37: DtypeWarning:\n\nColumns (16) have mixed types. Specify dtype option on import or set low_memory=False.\n\n\n\n\n  \n  Your browser does not support the video tag."
   }
 ]
