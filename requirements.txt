@@ -6,3 +6,5 @@ plotly
 panel
 scikit-learn
 folium
+geopandas 
+shapely
