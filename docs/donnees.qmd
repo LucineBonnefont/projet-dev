@@ -45,6 +45,18 @@ Elle nous permet de :
 - Afficher en temps réel les stations à proximité avec des vélos ou des places libres.  
 - Simplifier la planification de vos trajets.
 
+---
+# 4. Géolocalisation des quartiers de Montpellier
+
+**Lien** : [Quartiers de Montpellier ](https://data.montpellier3m.fr/dataset/quartiers-de-montpellier/resource/e6d5ead1-2f25-414d-9484-2971e7367fd8)
+
+Ces données  contiennent des informations géospatiales détaillant les quartiers de la ville de Montpellier sous forme de polygones. Les informations incluent :
+- Les coordonnées géographiques des limites de chaque quartier.
+- La dénomination des différents quartiers de la ville.
+
+Il nous permet de :
+- Visualiser les zones géographiques de Montpellier sur une carte interactive.
+- Identifier la répartition des quartiers dans la ville pour faciliter l’analyse de l’intensité du trafic de vélos par zone.
 
 ---
 
