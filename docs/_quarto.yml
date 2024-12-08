@@ -24,10 +24,3 @@ output:
     theme: cosmo
     css: styles/custom.css
     html-math-method: webtex
-    footer: |
-      <footer style="background-color: #333; color: #fff; padding: 20px; text-align: center; font-size: 14px;">
-          <p>&copy; 2024 Votre Nom ou Entreprise. Tous droits réservés.</p>
-          <p>
-              Distribué sous la <a href="LICENSE" target="_blank" style="color: #00bfff;">licence MIT</a>.
-          </p>
-      </footer>
