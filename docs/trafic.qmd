@@ -49,6 +49,6 @@ HTML(anim.to_html5_video())
 <footer>
   <p>
     &copy; 2024 MONTPELLI'CYCLE. This project is licensed under the 
-    <a href="LICENSE" target="_blank" style="color: #00bfff;">MIT License</a>.
+    <a href="license.html" target="_blank" style="color: #00bfff;">MIT License</a>.
   </p>
 </footer>
