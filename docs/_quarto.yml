@@ -18,9 +18,12 @@ website:
         href: "etude.qmd"
       - text: "Données"
         href: donnees.qmd
+      - icon: github
+        href: https://github.com/LucineBonnnefont/projet-dev
+
 
 output:
   html:
     theme: cosmo
     css: styles/custom.css
-    html-math-method: webtex
+    include-after-body: footer.qmd
