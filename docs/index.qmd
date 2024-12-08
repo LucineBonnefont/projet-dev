@@ -55,4 +55,11 @@ css: styles/custom.css
 >
 > *"Chaque matin une petite balade en vélo, et pas une seconde de perdue pour trouver un vélo de libre, seulement besoin de ce site!"*   
 > **– Charles, réside sur la place de la Comédie**
-> 
+
+
+<footer>
+  <p>
+    &copy; 2024 MONTPELLI'CYCLE. This project is licensed under the 
+    <a href="LICENSE" target="_blank" style="color: #00bfff;">MIT License</a>.
+  </p>
+</footer>

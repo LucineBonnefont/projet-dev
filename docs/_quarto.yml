@@ -26,4 +26,3 @@ output:
   html:
     theme: cosmo
     css: styles/custom.css
-    include-after-body: footer.qmd
