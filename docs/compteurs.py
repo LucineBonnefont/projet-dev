@@ -47,18 +47,39 @@ fig.update_layout(
 # Sauvegarder la figure dans un fichier HTML
 html_file = "OCP.html"
 fig.write_html(html_file)
-print(f"Graphique statique sauvegardé sous {html_file}")
 
-# Exemple de fonction pour récupérer et tracer des données supplémentaires (si définie)
 def get_bike_data(date):
+    """
+    Récupère les données de vélo pour une date donnée.
+
+    Cette fonction retourne l'ensemble des données de localisation des compteurs de vélos
+    pour la date spécifiée. Actuellement, elle retourne simplement le jeu de données
+    complet, mais elle peut être modifiée pour filtrer les données par date.
+
+    Args:
+        date (str): La date pour laquelle récupérer les données (format attendu : 'YYYY-MM-DD').
+
+    Returns:
+        pd.DataFrame: Les données des compteurs de vélos sous forme de DataFrame.
+    """
     return data2
 
-def plot_bike_data(data):
-    print(f"Tracé des données de vélo pour la date : {data}")
 
-data2 = get_bike_data('2023-01-01')
-plot_bike_data(data2)
-"""
-Ce code crée  un graphe OCP qui localise tous les compteurs de vélo de
-la ville de Montpellier pour une date spécifique.
-"""
+def plot_bike_data(data2):
+    """
+    Fonction d'exemple pour tracer les données des compteurs de vélos.
+
+    Cette fonction affiche un message indiquant que les données des compteurs de vélos
+    pour une date spécifique sont prêtes à être tracées. Elle peut être modifiée
+    pour effectuer un tracé réel si nécessaire.
+
+    Args:
+        data2 (pd.DataFrame): Les données à tracer, sous forme de DataFrame.
+    """
+    print(f"Tracé des données de vélo pour la date : {data2}")
+
+
+# Exemple de test pour récupérer et tracer des données supplémentaires (si définie)
+data2 = get_bike_data('2024-01-01') # Recuperation des données pour la date '2024-01-01'
+plot_bike_data(data2)    #Tracer lees données de vélo
+
