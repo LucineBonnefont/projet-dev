@@ -28,20 +28,6 @@
     "text": "Découvrez Montpellier autrement grâce à notre guide dédié aux cyclistes ! Que vous soyez un habitué du vélo ou un débutant, nous vous proposons les meilleurs itinéraires pour explorer la ville, éviter les zones encombrées et profiter pleinement de vos sorties. Trouvez en un clin d’œil les stations où prendre un vélo ou garer le vôtre en toute sécurité. Pratique, écologique et agréable, le vélo est le moyen idéal pour vivre Montpellier à votre rythme. Laissez-nous vous guider dans cette aventure à deux roues !\n\nTrouvez le meilleur chemin\n→\nvotre vélo\n→\net plus qu’à pédaler !\n\n\nRepérez-vous dans Montpellier!\n\n\n\n\n\n\n\n\nCe qu’en disent les cyclistes\n\n“Montpellier est parfaite pour les cyclistes, surtout grâce aux nouvelles pistes cyclables sécurisées.”\n– Paul, réside à Port Marianne\n“J’utilise le site tous les jours, il me fait gagner 20min tous les matins pour me rendre au travail grâce aux cartes de prévisions.”\n– Marie, réside à Hopitaux Facultés\n“Chaque matin une petite balade en vélo, et pas une seconde de perdue pour trouver un vélo de libre, seulement besoin de ce site!”\n– Charles, réside sur la place de la Comédie"
   },
   {
-    "objectID": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
-    "href": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
-    "title": "Densité du trafic",
-    "section": "Densité du traffic sur la journée du mois dernier.",
-    "text": "Densité du traffic sur la journée du mois dernier.\n\n\nJournée du 08/11/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
-  },
-  {
-    "objectID": "etude.html",
-    "href": "etude.html",
-    "title": "Étude",
-    "section": "",
-    "text": "Quels sont les quartiers de Montpellier les plus adeptes du vélo ?\nAvec une prise de conscience écologique croissante, de plus en plus d’habitants se tournent vers des modes de transport respectueux de l’environnement. Mais quels quartiers de Montpellier montrent l’exemple en adoptant le vélo au quotidien ?\nNous avons mené une étude pour analyser cette évolution. Découvrez :\n- 🗓️ Les tendances d’utilisation des vélos en 2023\n- 🚲 Les changements observés en 2024\nLequel de ces quartiers sera en tête du mouvement écologique ?\nEt si c’était le vôtre ?\nInspirons-nous mutuellement pour faire de Montpellier une ville toujours plus verte ! 🌿"
-  },
-  {
     "objectID": "dispo.html",
     "href": "dispo.html",
     "title": "Disponibilité des vélos",
@@ -56,11 +42,18 @@
     "text": "Visualisation des Compteurs de Vélo"
   },
   {
-    "objectID": "trafic.html",
-    "href": "trafic.html",
-    "title": "Trafic simulation",
+    "objectID": "etude.html",
+    "href": "etude.html",
+    "title": "Étude",
     "section": "",
-    "text": "Que révèlent les trajets des cyclistes dans Montpellier ? Grâce à une analyse des données de ce jour un mois plus tôt, cette vidéo immersive montre les flux de déplacement en temps réel à travers la ville.\n\nQuels quartiers sont les plus connectés ?\n\nQuelles routes sont privilégiées aux heures de pointe ?\n\nComment améliorer la mobilité durable à Montpellier ?\n\nQue vous soyez cycliste, citadin curieux ou décideur, cette visualisation peut vous inspirer à mieux comprendre la dynamique des trajets urbains.\n\n\nJournée du 08/11/2024\n\n\n\n  \n  Your browser does not support the video tag."
+    "text": "Quels sont les quartiers de Montpellier les plus adeptes du vélo ?\nAvec une prise de conscience écologique croissante, de plus en plus d’habitants se tournent vers des modes de transport respectueux de l’environnement. Mais quels quartiers de Montpellier montrent l’exemple en adoptant le vélo au quotidien ?\nNous avons mené une étude pour analyser cette évolution. Découvrez :\n- 🗓️ Les tendances d’utilisation des vélos en 2023\n- 🚲 Les changements observés en 2024\nLequel de ces quartiers sera en tête du mouvement écologique ?\nEt si c’était le vôtre ?\nInspirons-nous mutuellement pour faire de Montpellier une ville toujours plus verte ! 🌿"
+  },
+  {
+    "objectID": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
+    "href": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
+    "title": "Densité du trafic",
+    "section": "Densité du traffic sur la journée du mois dernier.",
+    "text": "Densité du traffic sur la journée du mois dernier.\n\n\nJournée du 08/11/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook"
   },
   {
     "objectID": "footer.html",
@@ -68,5 +61,12 @@
     "title": "Footer",
     "section": "",
     "text": "© 2024 Lucine Bonnefont. This project is licensed under the MIT License."
+  },
+  {
+    "objectID": "trafic.html",
+    "href": "trafic.html",
+    "title": "Trafic simulation",
+    "section": "",
+    "text": "Que révèlent les trajets des cyclistes dans Montpellier ? Grâce à une analyse des données de ce jour un mois plus tôt, cette vidéo immersive montre les flux de déplacement en temps réel à travers la ville.\n\nQuels quartiers sont les plus connectés ?\n\nQuelles routes sont privilégiées aux heures de pointe ?\n\nComment améliorer la mobilité durable à Montpellier ?\n\nQue vous soyez cycliste, citadin curieux ou décideur, cette visualisation peut vous inspirer à mieux comprendre la dynamique des trajets urbains.\n\n\nJournée du 08/11/2024\n\n\n\n  \n  Your browser does not support the video tag."
   }
 ]
