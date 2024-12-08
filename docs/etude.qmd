@@ -27,3 +27,9 @@ Inspirons-nous mutuellement pour faire de Montpellier une ville toujours plus ve
 </div>
 
 
+<footer>
+  <p>
+    &copy; 2024 MONTPELLI'CYCLE. This project is licensed under the 
+    <a href="LICENSE" target="_blank" style="color: #00bfff;">MIT License</a>.
+  </p>
+</footer>

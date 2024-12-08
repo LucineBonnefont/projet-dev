@@ -35,3 +35,11 @@ density_map = create_density_map(bikes_routes)
 HTML(density_map._repr_html_())
 
 ```
+
+
+<footer>
+  <p>
+    &copy; 2024 MONTPELLI'CYCLE. This project is licensed under the 
+    <a href="LICENSE" target="_blank" style="color: #00bfff;">MIT License</a>.
+  </p>
+</footer>

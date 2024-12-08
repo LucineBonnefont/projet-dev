@@ -19,7 +19,7 @@ website:
       - text: "Données"
         href: donnees.qmd
       - icon: github
-        href: https://github.com/LucineBonnnefont/projet-dev.git
+        href: https://github.com/LucineBonnefont/projet-dev.git
 
 
 output:
