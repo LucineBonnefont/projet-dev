@@ -20,7 +20,7 @@ from dateutil.relativedelta import relativedelta
 import locale
 locale.setlocale(locale.LC_TIME,'')
 
-# simulation_date = '2024-09-30'
+# simulation_date = datetime.datetime.strptime('2024-11-14', "%Y-%m-%d")
 simulation_date = datetime.date.today() + relativedelta(months=-1)
 print(f'Journée du {simulation_date.strftime("%d/%m/%Y")}')
 
@@ -36,10 +36,26 @@ HTML(density_map._repr_html_())
 
 ```
 
+## Prévision de la densité de circulation pour demain.
 
-<footer>
-  <p>
-    &copy; 2024 MONTPELLI'CYCLE. This project is licensed under the 
-    <a href="license.html" target="_blank" style="color: #00bfff;">MIT License</a>.
-  </p>
-</footer>
+```{python}
+from previsions import predict_density
+import pandas as pd
+from IPython.display import HTML
+import datetime
+import locale
+locale.setlocale(locale.LC_TIME,'')
+
+current_date = datetime.date.today()
+# current_date = datetime.datetime.strptime('2024-12-13', "%Y-%m-%d")
+# current_date = datetime.datetime.strptime('2024-12-24', "%Y-%m-%d")
+# current_date = datetime.datetime.strptime('2024-04-30', "%Y-%m-%d")
+# current_date = datetime.datetime.strptime('2024-11-13', "%Y-%m-%d")
+tomorrow_date = current_date + pd.Timedelta(days=1)
+print(f'Journée du {tomorrow_date.strftime("%d/%m/%Y")}')
+
+# Create and display density map
+prevision_map = predict_density(current_date)
+HTML(prevision_map._repr_html_())
+
+```
