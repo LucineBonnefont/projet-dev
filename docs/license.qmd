@@ -5,7 +5,7 @@ include-in-nav: false  # La page ne s'affichera pas dans le menu de navigation
 css: styles/custom.css
 ---
 
-
+![ ](images/logo.png){style="position: absolute; top: 20px; left: 20px; width: 150px; height: auto;"}
 
 Copyright(c) - 2024 - MONTPELLI'CYCLE
 
