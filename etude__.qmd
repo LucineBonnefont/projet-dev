@@ -12,7 +12,7 @@ css: styles/custom.css
 
 
 
-###Comparaison des intensités moyennes de trafic pour 2022 et 2024
+### Comparaison des intensités moyennes de trafic pour 2022 et 2024
 Les intensités moyennes de trafic calculées entre les mois de juin et novembre pour les années 2022 et 2024 montrent une tendance générale à la baisse dans plusieurs quartiers. Par exemple, le quartier "Prés d'Arènes" présente une diminution notable de l'intensité moyenne en 2024 par rapport à 2022, tandis que d'autres quartiers comme "Mosson" affichent également des valeurs plus faibles pour l'année 2024.
 
 En revanche, certains quartiers, comme "Centre" et "Port Marianne", conservent des intensités relativement élevées, bien que celles-ci soient légèrement réduites par rapport à 2022. Le quartier "Croix d'Argent" connaît aussi une diminution, mais à un rythme moins prononcé.
