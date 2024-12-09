@@ -8,16 +8,14 @@ jupyter: python3
 css: styles/custom.css
 
 ---
-
-
-
-
 ### Comparaison des intensités moyennes de trafic pour 2022 et 2024
-Les intensités moyennes de trafic calculées entre les mois de juin et novembre pour les années 2022 et 2024 montrent une tendance générale à la baisse dans plusieurs quartiers. Par exemple, le quartier "Prés d'Arènes" présente une diminution notable de l'intensité moyenne en 2024 par rapport à 2022, tandis que d'autres quartiers comme "Mosson" affichent également des valeurs plus faibles pour l'année 2024.
+L'analyse des intensités moyennes de trafic pour les mois de juin à novembre en 2022 et 2024 montre une tendance générale de diminution des valeurs.
+En 2022, plusieurs quartiers, tels que "Hôpitaux-Facultés" et "Port Marianne", affichent des intensités relativement élevées, mais ces valeurs ont diminué en 2024. Par exemple, "Hôpitaux-Facultés" passe d'une intensité de 730.11 en 2022 à 724.07 en 2024, tandis que "Port Marianne" passe de 943.00 à 812.28.
 
-En revanche, certains quartiers, comme "Centre" et "Port Marianne", conservent des intensités relativement élevées, bien que celles-ci soient légèrement réduites par rapport à 2022. Le quartier "Croix d'Argent" connaît aussi une diminution, mais à un rythme moins prononcé.
+D'autres quartiers comme "Croix d'Argent" et "Centre" ont également connu des baisses, mais restent parmi les zones avec des valeurs d'intensité relativement élevées en comparaison avec les autres secteurs. En revanche, des secteurs comme "Prés d'Arènes" et "Mosson" présentent des intensités moyennes plus faibles dans les deux années, avec une diminution plus marquée en 2024.
 
-Ces variations dans les intensités moyennes pourraient refléter l’évolution des comportements de mobilité cycliste, des changements dans l'infrastructure urbaine, ou d'autres facteurs influençant la fréquentation des voies cyclables au cours de cette période.
+Cette tendance générale de baisse des intensités moyennes sur la période observée pourrait refléter une réduction de l'activité cycliste dans plusieurs zones urbaines au cours de ces deux années, influencée par des facteurs variés tels que les aménagements urbains ou les comportements de mobilité des résidents.
+
 
 ```{python}
 
