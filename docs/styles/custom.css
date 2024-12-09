@@ -164,7 +164,7 @@ h3 {
   font-weight: bold; /* Met en gras le titre */
   margin-bottom: 10px; /* Espacement sous le titre */
   text-align: left; /* Alignement du titre */
-  margin-top: 70px; /* Espacement au-dessus de la carte */
+  margin-top: 110px; /* Espacement au-dessus de la carte */
 }
 
 /* Témoignages */
@@ -174,7 +174,7 @@ blockquote {
   color: #555;
   border-left: 4px solid #2a6f97;
   padding-left: 10px;
-  margin-top: 70px; /* Espacement au-dessus de la carte */
+  margin-top: 20px; /* Espacement au-dessus de la carte */
 }
 
 .etude-section {
@@ -190,22 +190,9 @@ blockquote {
   font-size: 1.8rem;
 }
 
-.etude-section p {
-  margin: 10px 0;
-}
-
-.etude-section ul {
-  margin: 10px 0 0 20px;
-}
 
 .etude-section ul li {
   list-style: none;
-}
-
-.etude-section ul li::before {
-  content: "✔️ ";
-  color: #4caf50;
-  font-weight: bold;
 }
 
 footer {
