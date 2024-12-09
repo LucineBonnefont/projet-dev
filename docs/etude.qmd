@@ -13,8 +13,7 @@ Avec une prise de conscience écologique croissante, de plus en plus d’habitan
 
 ### 📊 Étude des intensités moyennes de trafic  
 Nous avons analysé les intensités moyennes de trafic pour les mois de juin à novembre, comparant les données de **2022** et **2024**. Cette étude vise à identifier les tendances cyclistes et les quartiers les plus actifs.  
-
-- **🏙️ Résultats clés :**  
+  
   - Les quartiers comme **Hôpitaux-Facultés** et **Port Marianne** se démarquent par des valeurs élevées en 2022, mais montrent une baisse significative en 2024 :
     - *Hôpitaux-Facultés* : 730.11 → 724.07  
     - *Port Marianne* : 943.00 → 812.28  
