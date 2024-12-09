@@ -1,7 +1,7 @@
 import folium
 from collections import defaultdict
 
-def create_density_map(bike_routes, location=[43.6119, 3.8772], zoom_start=15):
+def create_density_map(bike_routes, location=[43.6119, 3.8772], zoom_start=15, return_frequency=False):
     """
     Crée une carte interactive des routes empruntées par les vélos, avec des couleurs
     indiquant la densité de trafic.
@@ -15,9 +15,6 @@ def create_density_map(bike_routes, location=[43.6119, 3.8772], zoom_start=15):
     - density_map : Objet de carte Folium
     """
     
-    # Initialisation de la carte
-    density_map = folium.Map(location=location, zoom_start=zoom_start)
-    
     # Dictionnaire pour compter la fréquence de chaque segment de route
     segment_frequency = defaultdict(int)
 
@@ -29,6 +26,16 @@ def create_density_map(bike_routes, location=[43.6119, 3.8772], zoom_start=15):
             end = (route['route'][i + 1][1], route['route'][i + 1][0])  # (latitude, longitude)
             segment = (start, end)
             segment_frequency[segment] += 1
+
+    if return_frequency:
+        return segment_frequency
+
+    return generate_map(segment_frequency, location=[43.6119, 3.8772], zoom_start=15)
+
+def generate_map(segment_frequency, location=[43.6119, 3.8772], zoom_start=15):
+    
+    # Initialisation de la carte
+    density_map = folium.Map(location=location, zoom_start=zoom_start)
 
     # Déterminer la fréquence maximale pour normaliser les couleurs
     max_frequency = max(segment_frequency.values())
