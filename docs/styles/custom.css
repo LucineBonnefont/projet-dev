@@ -164,6 +164,7 @@ h3 {
   font-weight: bold; /* Met en gras le titre */
   margin-bottom: 10px; /* Espacement sous le titre */
   text-align: left; /* Alignement du titre */
+  margin-top: 70px; /* Espacement au-dessus de la carte */
 }
 
 /* Témoignages */
@@ -173,7 +174,7 @@ blockquote {
   color: #555;
   border-left: 4px solid #2a6f97;
   padding-left: 10px;
-  margin-top: 50px; /* Espacement au-dessus de la carte */
+  margin-top: 70px; /* Espacement au-dessus de la carte */
 }
 
 .etude-section {
