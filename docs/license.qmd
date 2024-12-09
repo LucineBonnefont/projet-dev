@@ -1,13 +1,13 @@
 ---
-title: Licence MIT
+title: MIT License
 format: html
 include-in-nav: false  # La page ne s'affichera pas dans le menu de navigation
+css: styles/custom.css
 ---
 
 
-# MIT License
 
-Copyright (c) 2024 [MONTPELLI'CYCLE]
+Copyright(c) - 2024 - MONTPELLI'CYCLE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29,3 +29,11 @@ SOFTWARE.
 
 
 [Retour à l'accueil](index.qmd)
+
+
+<footer>
+  <p>
+    &copy; 2024 MONTPELLI'CYCLE. This project is licensed under the 
+    <a href="license.html" target="_blank" style="color: #00bfff;">MIT License</a>.
+  </p>
+</footer>
