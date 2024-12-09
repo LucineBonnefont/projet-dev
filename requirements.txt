@@ -10,3 +10,4 @@ geopandas
 shapely
 pooch
 sphinx_rtd_theme
+holidays
