@@ -7,22 +7,20 @@ css: styles/custom.css
 
 <div class="etude-section">
 
-### Quels sont les quartiers de Montpellier les plus adeptes du vélo ?  
-
-
+### 🚴 Quels sont les quartiers de Montpellier les plus adeptes du vélo ?  
 
 Avec une prise de conscience écologique croissante, de plus en plus d’habitants se tournent vers des modes de transport respectueux de l’environnement. Mais **quels quartiers de Montpellier montrent l’exemple en adoptant le vélo au quotidien ?**  
 
+### 📊 Étude des intensités moyennes de trafic  
+Nous avons analysé les intensités moyennes de trafic pour les mois de juin à novembre, comparant les données de **2022** et **2024**. Cette étude vise à identifier les tendances cyclistes et les quartiers les plus actifs.  
 
+- **🏙️ Résultats clés :**  
+  - Les quartiers comme **Hôpitaux-Facultés** et **Port Marianne** se démarquent par des valeurs élevées en 2022, mais montrent une baisse significative en 2024 :
+    - *Hôpitaux-Facultés* : 730.11 → 724.07  
+    - *Port Marianne* : 943.00 → 812.28  
+  - Les quartiers **Croix d'Argent** et **Centre** enregistrent également une diminution, mais restent parmi les zones avec des intensités élevées.  
+  - Les secteurs comme **Prés d'Arènes** et **Mosson** ont des valeurs relativement faibles, avec une baisse marquée en 2024.  
 
-Nous avons mené une **étude** pour analyser cette évolution. Découvrez :  
-- 🗓️ **Les tendances d’utilisation des vélos en 2023**  
-- 🚲 **Les changements observés en 2024**  
-
-Lequel de ces quartiers sera en tête du mouvement écologique ?  
-
-**Et si c’était le vôtre ?**  
-Inspirons-nous mutuellement pour faire de Montpellier une ville toujours plus verte ! 🌿
 
 ```{python}
 
@@ -124,9 +122,10 @@ plt.tight_layout(rect=[0, 0, 0.9, 1])  # Ajuster pour laisser la place à la lé
 # Sauvegarder l'image de la carte
 plt.savefig('intensite_traffics_map.png', dpi=300)
 plt.close()
-
-
 ```
+### 🌟 **Quel quartier sera en tête du mouvement écologique ?**  
+
+**Et si c’était le vôtre ?** Inspirons-nous les uns les autres pour faire de **Montpellier** une ville toujours plus verte et accueillante pour les cyclistes ! 🌿  
 
 </div>
 
