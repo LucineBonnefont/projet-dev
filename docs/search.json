@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
-    "href": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
-    "title": "Densité du trafic",
-    "section": "Densité du traffic sur la journée du mois dernier.",
-    "text": "Densité du traffic sur la journée du mois dernier.\n\n\nJournée du 09/11/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n\n\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
+    "objectID": "donnees.html#trajets-réalisés-par-les-vélos-vélomagg",
+    "href": "donnees.html#trajets-réalisés-par-les-vélos-vélomagg",
+    "title": "Données",
+    "section": "1. Trajets réalisés par les vélos VéloMagg",
+    "text": "1. Trajets réalisés par les vélos VéloMagg\nLien : Courses des vélos VéloMagg de Montpellier Méditerranée Métropole\nCes données recensent les trajets effectués entre les stations VéloMagg depuis mai 2021. Elles nous permettent de :\n- Cartographier les itinéraires les plus fréquentés.\n- Analyser les tendances et horaires des déplacements.\n- Proposer des prévisions de trafic pour optimiser vos trajets."
+  },
+  {
+    "objectID": "donnees.html#comptages-des-vélos-et-piétons-par-éco-compteurs",
+    "href": "donnees.html#comptages-des-vélos-et-piétons-par-éco-compteurs",
+    "title": "Données",
+    "section": "2. Comptages des vélos et piétons par éco-compteurs",
+    "text": "2. Comptages des vélos et piétons par éco-compteurs\nLien : Comptages des vélos et piétons issus des compteurs de vélo\nCes données proviennent des éco-compteurs installés à des points stratégiques de la Métropole. Elles enregistrent :\n- Les passages horaires des vélos (et parfois des piétons).\n- Les tendances de trafic, avec des mises à jour quotidiennes.\nElles nous aident à :\n- Identifier les zones les plus fréquentées.\n- Recommander des itinéraires pour éviter les trajets surchargés."
+  },
+  {
+    "objectID": "donnees.html#disponibilité-des-stations-vélomagg-en-temps-réel",
+    "href": "donnees.html#disponibilité-des-stations-vélomagg-en-temps-réel",
+    "title": "Données",
+    "section": "3. Disponibilité des stations VéloMagg en temps réel",
+    "text": "3. Disponibilité des stations VéloMagg en temps réel\nLien : Disponibilité des places VéloMagg en temps réel\nCette API fournit des informations actualisées sur :\n- Le nombre de vélos disponibles dans chaque station.\n- Le nombre de places libres pour y déposer un vélo.\nElle nous permet de :\n- Afficher en temps réel les stations à proximité avec des vélos ou des places libres.\n- Simplifier la planification de vos trajets.\n\nGrâce à ces données, notre objectif est de rendre vos trajets à vélo plus fluides, pratiques et agréables dans la Métropole de Montpellier.\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
   },
   {
     "objectID": "license.html",
@@ -28,27 +42,6 @@
     "text": "Visualisation des Compteurs de Vélo\n\n\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
   },
   {
-    "objectID": "donnees.html#trajets-réalisés-par-les-vélos-vélomagg",
-    "href": "donnees.html#trajets-réalisés-par-les-vélos-vélomagg",
-    "title": "Données",
-    "section": "1. Trajets réalisés par les vélos VéloMagg",
-    "text": "1. Trajets réalisés par les vélos VéloMagg\nLien : Courses des vélos VéloMagg de Montpellier Méditerranée Métropole\nCes données recensent les trajets effectués entre les stations VéloMagg depuis mai 2021. Elles nous permettent de :\n- Cartographier les itinéraires les plus fréquentés.\n- Analyser les tendances et horaires des déplacements.\n- Proposer des prévisions de trafic pour optimiser vos trajets."
-  },
-  {
-    "objectID": "donnees.html#comptages-des-vélos-et-piétons-par-éco-compteurs",
-    "href": "donnees.html#comptages-des-vélos-et-piétons-par-éco-compteurs",
-    "title": "Données",
-    "section": "2. Comptages des vélos et piétons par éco-compteurs",
-    "text": "2. Comptages des vélos et piétons par éco-compteurs\nLien : Comptages des vélos et piétons issus des compteurs de vélo\nCes données proviennent des éco-compteurs installés à des points stratégiques de la Métropole. Elles enregistrent :\n- Les passages horaires des vélos (et parfois des piétons).\n- Les tendances de trafic, avec des mises à jour quotidiennes.\nElles nous aident à :\n- Identifier les zones les plus fréquentées.\n- Recommander des itinéraires pour éviter les trajets surchargés."
-  },
-  {
-    "objectID": "donnees.html#disponibilité-des-stations-vélomagg-en-temps-réel",
-    "href": "donnees.html#disponibilité-des-stations-vélomagg-en-temps-réel",
-    "title": "Données",
-    "section": "3. Disponibilité des stations VéloMagg en temps réel",
-    "text": "3. Disponibilité des stations VéloMagg en temps réel\nLien : Disponibilité des places VéloMagg en temps réel\nCette API fournit des informations actualisées sur :\n- Le nombre de vélos disponibles dans chaque station.\n- Le nombre de places libres pour y déposer un vélo.\nElle nous permet de :\n- Afficher en temps réel les stations à proximité avec des vélos ou des places libres.\n- Simplifier la planification de vos trajets.\n\nGrâce à ces données, notre objectif est de rendre vos trajets à vélo plus fluides, pratiques et agréables dans la Métropole de Montpellier.\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
-  },
-  {
     "objectID": "etude.html",
     "href": "etude.html",
     "title": "Étude",
@@ -56,11 +49,11 @@
     "text": "Quels sont les quartiers de Montpellier les plus adeptes du vélo ?\nAvec une prise de conscience écologique croissante, de plus en plus d’habitants se tournent vers des modes de transport respectueux de l’environnement. Mais quels quartiers de Montpellier montrent l’exemple en adoptant le vélo au quotidien ?\nNous avons mené une étude pour analyser cette évolution. Découvrez :\n- 🗓️ Les tendances d’utilisation des vélos en 2023\n- 🚲 Les changements observés en 2024\nLequel de ces quartiers sera en tête du mouvement écologique ?\nEt si c’était le vôtre ?\nInspirons-nous mutuellement pour faire de Montpellier une ville toujours plus verte ! 🌿\n\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
   },
   {
-    "objectID": "trafic.html",
-    "href": "trafic.html",
-    "title": "Trafic simulation",
-    "section": "",
-    "text": "Que révèlent les trajets des cyclistes dans Montpellier ? Grâce à une analyse des données de ce jour un mois plus tôt, cette vidéo immersive montre les flux de déplacement en temps réel à travers la ville.\n\nQuels quartiers sont les plus connectés ?\n\nQuelles routes sont privilégiées aux heures de pointe ?\n\nComment améliorer la mobilité durable à Montpellier ?\n\nQue vous soyez cycliste, citadin curieux ou décideur, cette visualisation peut vous inspirer à mieux comprendre la dynamique des trajets urbains.\n\n\nJournée du 09/11/2024\n\n\n\n  \n  Your browser does not support the video tag.\n\n\n\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
+    "objectID": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
+    "href": "density.html#densité-du-traffic-sur-la-journée-du-mois-dernier.",
+    "title": "Densité du trafic",
+    "section": "Densité du traffic sur la journée du mois dernier.",
+    "text": "Densité du traffic sur la journée du mois dernier.\n\n\nJournée du 09/11/2024\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n\n\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
   },
   {
     "objectID": "index.html",
@@ -68,5 +61,12 @@
     "title": "Le vélo au cœur de la ville",
     "section": "",
     "text": "Découvrez Montpellier autrement grâce à notre guide dédié aux cyclistes ! Que vous soyez un habitué du vélo ou un débutant, nous vous proposons les meilleurs itinéraires pour explorer la ville, éviter les zones encombrées et profiter pleinement de vos sorties. Trouvez en un clin d’œil les stations où prendre un vélo ou garer le vôtre en toute sécurité. Pratique, écologique et agréable, le vélo est le moyen idéal pour vivre Montpellier à votre rythme. Laissez-nous vous guider dans cette aventure à deux roues !\n\nTrouvez le meilleur chemin\n→\nvotre vélo\n→\net plus qu’à pédaler !\n\n\nRepérez-vous dans Montpellier!\n\n\n\n\n\n\n\n\nCe qu’en disent les cyclistes\n\n“Montpellier est parfaite pour les cyclistes, surtout grâce aux nouvelles pistes cyclables sécurisées.”\n– Paul, réside à Port Marianne\n“J’utilise le site tous les jours, il me fait gagner 20min tous les matins pour me rendre au travail grâce aux cartes de prévisions.”\n– Marie, réside à Hopitaux Facultés\n“Chaque matin une petite balade en vélo, et pas une seconde de perdue pour trouver un vélo de libre, seulement besoin de ce site!”\n– Charles, réside sur la place de la Comédie\n\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
+  },
+  {
+    "objectID": "trafic.html",
+    "href": "trafic.html",
+    "title": "Trafic simulation",
+    "section": "",
+    "text": "Que révèlent les trajets des cyclistes dans Montpellier ? Grâce à une analyse des données de ce jour un mois plus tôt, cette vidéo immersive montre les flux de déplacement en temps réel à travers la ville.\n\nQuels quartiers sont les plus connectés ?\n\nQuelles routes sont privilégiées aux heures de pointe ?\n\nComment améliorer la mobilité durable à Montpellier ?\n\nQue vous soyez cycliste, citadin curieux ou décideur, cette visualisation peut vous inspirer à mieux comprendre la dynamique des trajets urbains.\n\n\nJournée du 09/11/2024\n\n\n\n  \n  Your browser does not support the video tag.\n\n\n\n\n\n© 2024 MONTPELLI’CYCLE. This project is licensed under the MIT License."
   }
 ]
