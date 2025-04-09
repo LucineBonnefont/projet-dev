@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 - Planifier vos trajets en fonction des ressources de votre quartier.<br>
 - Suivre l’évolution des disponibilités.</p>
 <p>Cliquez sur la carte ci-dessous pour commencer à trouver la station vélo qui vous convient ! 🚴‍♀️</p>
-<div id="5db5879b" class="cell" data-execution_count="1">
+<div id="c4c3737f" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display" data-execution_count="1">
 <div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe srcdoc="<!DOCTYPE html>
 <html>
@@ -185,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
-                #map_e2048e6fd507f64e3f094aa35385e65b {
+                #map_d3df6b32bc81c424ff08cebcfef761e9 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -199,14 +199,14 @@ ul.task-list li input[type="checkbox"] {
 <body>
     
     
-            <div class=&quot;folium-map&quot; id=&quot;map_e2048e6fd507f64e3f094aa35385e65b&quot; ></div>
+            <div class=&quot;folium-map&quot; id=&quot;map_d3df6b32bc81c424ff08cebcfef761e9&quot; ></div>
         
 </body>
 <script>
     
     
-            var map_e2048e6fd507f64e3f094aa35385e65b = L.map(
-                &quot;map_e2048e6fd507f64e3f094aa35385e65b&quot;,
+            var map_d3df6b32bc81c424ff08cebcfef761e9 = L.map(
+                &quot;map_d3df6b32bc81c424ff08cebcfef761e9&quot;,
                 {
                     center: [43.6119, 3.8772],
                     crs: L.CRS.EPSG3857,
@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 
         
     
-            var tile_layer_6a7deb8d92e5381df961645e7416c1e8 = L.tileLayer(
+            var tile_layer_0c35a546053f8b043d64ffb95583f315 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -240,29 +240,146 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-            tile_layer_6a7deb8d92e5381df961645e7416c1e8.addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            tile_layer_0c35a546053f8b043d64ffb95583f315.addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var marker_23a1e9ce3b9c8f227763af629072b439 = L.marker(
+            var marker_b6eaa0f34b610a8f7ab5546900b3a857 = L.marker(
                 [43.605366, 3.881346],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_f9dd9439dfb42a14ea79173ee962c79b = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_307abbba03a43fc48a92f3939f167482 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_23a1e9ce3b9c8f227763af629072b439.setIcon(div_icon_f9dd9439dfb42a14ea79173ee962c79b);
+            marker_b6eaa0f34b610a8f7ab5546900b3a857.setIcon(div_icon_307abbba03a43fc48a92f3939f167482);
         
     
-            marker_23a1e9ce3b9c8f227763af629072b439.bindTooltip(
+            marker_b6eaa0f34b610a8f7ab5546900b3a857.bindTooltip(
                 `<div>
                      
             <h3>Station 001</h3>
             <h4>Rue Jules Ferry - Gare Saint-Roch</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 9
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Places libres:</b> 3
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_b6eaa0f34b610a8f7ab5546900b3a857.setIcon(div_icon_307abbba03a43fc48a92f3939f167482);
+            
+    
+            var marker_b1ec2f0bf5e61729f38e3a270a91115a = L.marker(
+                [43.608148, 3.878778],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_a0b4ee57c06a7920f67cff75929ffc79 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_b1ec2f0bf5e61729f38e3a270a91115a.setIcon(div_icon_a0b4ee57c06a7920f67cff75929ffc79);
+        
+    
+            marker_b1ec2f0bf5e61729f38e3a270a91115a.bindTooltip(
+                `<div>
+                     
+            <h3>Station 002</h3>
+            <h4>Comédie</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 16
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Places libres:</b> 4
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_b1ec2f0bf5e61729f38e3a270a91115a.setIcon(div_icon_a0b4ee57c06a7920f67cff75929ffc79);
+            
+    
+            var marker_c8c0b4913f63c6cc7ff0c6ac5fe6ff09 = L.marker(
+                [43.599088, 3.894866],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_235dc2c6d0e62c4e02d0a714600dae22 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_c8c0b4913f63c6cc7ff0c6ac5fe6ff09.setIcon(div_icon_235dc2c6d0e62c4e02d0a714600dae22);
+        
+    
+            marker_c8c0b4913f63c6cc7ff0c6ac5fe6ff09.bindTooltip(
+                `<div>
+                     
+            <h3>Station 004</h3>
+            <h4>Hôtel de Ville</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 5
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 11
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_c8c0b4913f63c6cc7ff0c6ac5fe6ff09.setIcon(div_icon_235dc2c6d0e62c4e02d0a714600dae22);
+            
+    
+            var marker_df7d43d7226852855746ee12a6ed01da = L.marker(
+                [43.613989, 3.8816],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_5c9700df8d051a1cf64d5c6b85a64b0e = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_df7d43d7226852855746ee12a6ed01da.setIcon(div_icon_5c9700df8d051a1cf64d5c6b85a64b0e);
+        
+    
+            marker_df7d43d7226852855746ee12a6ed01da.bindTooltip(
+                `<div>
+                     
+            <h3>Station 005</h3>
+            <h4>Corum</h4>
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 10
@@ -279,153 +396,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_23a1e9ce3b9c8f227763af629072b439.setIcon(div_icon_f9dd9439dfb42a14ea79173ee962c79b);
+                marker_df7d43d7226852855746ee12a6ed01da.setIcon(div_icon_5c9700df8d051a1cf64d5c6b85a64b0e);
             
     
-            var marker_f27b8f92de4b15fe370335d4caaf420e = L.marker(
-                [43.608148, 3.878778],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_a8893099847c92a5d9721ea6c4ea2e48 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_f27b8f92de4b15fe370335d4caaf420e.setIcon(div_icon_a8893099847c92a5d9721ea6c4ea2e48);
-        
-    
-            marker_f27b8f92de4b15fe370335d4caaf420e.bindTooltip(
-                `<div>
-                     
-            <h3>Station 002</h3>
-            <h4>Comédie</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 16
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Places libres:</b> 4
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_f27b8f92de4b15fe370335d4caaf420e.setIcon(div_icon_a8893099847c92a5d9721ea6c4ea2e48);
-            
-    
-            var marker_9a26481a76bc5bf16834cff7a815e57d = L.marker(
-                [43.599088, 3.894866],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_5263f53f47e3647b1e768d9b7e977cc7 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_9a26481a76bc5bf16834cff7a815e57d.setIcon(div_icon_5263f53f47e3647b1e768d9b7e977cc7);
-        
-    
-            marker_9a26481a76bc5bf16834cff7a815e57d.bindTooltip(
-                `<div>
-                     
-            <h3>Station 004</h3>
-            <h4>Hôtel de Ville</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Vélos disponibles:</b> 4
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 12
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_9a26481a76bc5bf16834cff7a815e57d.setIcon(div_icon_5263f53f47e3647b1e768d9b7e977cc7);
-            
-    
-            var marker_f4474d49ba9f6ec0cb43545656fbcf6a = L.marker(
-                [43.613989, 3.8816],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_ade5455a7d4c16c8fdbf053ef87af337 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_f4474d49ba9f6ec0cb43545656fbcf6a.setIcon(div_icon_ade5455a7d4c16c8fdbf053ef87af337);
-        
-    
-            marker_f4474d49ba9f6ec0cb43545656fbcf6a.bindTooltip(
-                `<div>
-                     
-            <h3>Station 005</h3>
-            <h4>Corum</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 12
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
-                <b>Places libres:</b> 0
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_f4474d49ba9f6ec0cb43545656fbcf6a.setIcon(div_icon_ade5455a7d4c16c8fdbf053ef87af337);
-            
-    
-            var marker_c1cdb0136d1faa0aa204005f0ddab3ff = L.marker(
+            var marker_3a9ce443931587a8e158abcab7a31bf3 = L.marker(
                 [43.616768, 3.873375],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_a67dbbb85c24440ef733a99ce65b4acc = L.divIcon({
+            var div_icon_9f00645a5a0640882b963689ae8c8610 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_c1cdb0136d1faa0aa204005f0ddab3ff.setIcon(div_icon_a67dbbb85c24440ef733a99ce65b4acc);
+            marker_3a9ce443931587a8e158abcab7a31bf3.setIcon(div_icon_9f00645a5a0640882b963689ae8c8610);
         
     
-            marker_c1cdb0136d1faa0aa204005f0ddab3ff.bindTooltip(
+            marker_3a9ce443931587a8e158abcab7a31bf3.bindTooltip(
                 `<div>
                      
             <h3>Station 006</h3>
             <h4>Place Albert 1er - St Charles</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 15
+                <b>Vélos disponibles:</b> 17
             </div>
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 12
+                <b>Places libres:</b> 10
             </div>
         
                  </div>`,
@@ -435,29 +435,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_c1cdb0136d1faa0aa204005f0ddab3ff.setIcon(div_icon_a67dbbb85c24440ef733a99ce65b4acc);
+                marker_3a9ce443931587a8e158abcab7a31bf3.setIcon(div_icon_9f00645a5a0640882b963689ae8c8610);
             
     
-            var marker_7dcfae5aafedeeaff7ecaf3f7ec93f84 = L.marker(
+            var marker_67277c43607789686cebdfe92dc8fdbc = L.marker(
                 [43.610989, 3.873345],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_2e1953dd1d00ebd6cca540f419e826e7 = L.divIcon({
+            var div_icon_3e36fb8368f258b424dbe9e62c2a328c = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_7dcfae5aafedeeaff7ecaf3f7ec93f84.setIcon(div_icon_2e1953dd1d00ebd6cca540f419e826e7);
+            marker_67277c43607789686cebdfe92dc8fdbc.setIcon(div_icon_3e36fb8368f258b424dbe9e62c2a328c);
         
     
-            marker_7dcfae5aafedeeaff7ecaf3f7ec93f84.bindTooltip(
+            marker_67277c43607789686cebdfe92dc8fdbc.bindTooltip(
                 `<div>
                      
             <h3>Station 007</h3>
             <h4>Foch</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 3
@@ -474,185 +474,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_7dcfae5aafedeeaff7ecaf3f7ec93f84.setIcon(div_icon_2e1953dd1d00ebd6cca540f419e826e7);
+                marker_67277c43607789686cebdfe92dc8fdbc.setIcon(div_icon_3e36fb8368f258b424dbe9e62c2a328c);
             
     
-            var marker_d7e21024fd873dfafc06c152d37ee308 = L.marker(
+            var marker_b77be19f625c55cb5080efca4b51e9f7 = L.marker(
                 [43.609935, 3.877208],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_d4fb6d7c9e6f5b3a102542e5172fa8ff = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_22b8e020a12b12f78d7930160e64b083 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_d7e21024fd873dfafc06c152d37ee308.setIcon(div_icon_d4fb6d7c9e6f5b3a102542e5172fa8ff);
+            marker_b77be19f625c55cb5080efca4b51e9f7.setIcon(div_icon_22b8e020a12b12f78d7930160e64b083);
         
     
-            marker_d7e21024fd873dfafc06c152d37ee308.bindTooltip(
+            marker_b77be19f625c55cb5080efca4b51e9f7.bindTooltip(
                 `<div>
                      
             <h3>Station 008</h3>
             <h4>Halles Castellane</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: black;&quot;></i> 
-                <b>Vélos disponibles:</b> 0
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 12
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_d7e21024fd873dfafc06c152d37ee308.setIcon(div_icon_d4fb6d7c9e6f5b3a102542e5172fa8ff);
-            
-    
-            var marker_4f92e9509e5074b39914998e544fdd62 = L.marker(
-                [43.606301, 3.87724],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_39c8dec3c38a9b86c1fdf0ccef75a847 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_4f92e9509e5074b39914998e544fdd62.setIcon(div_icon_39c8dec3c38a9b86c1fdf0ccef75a847);
-        
-    
-            marker_4f92e9509e5074b39914998e544fdd62.bindTooltip(
-                `<div>
-                     
-            <h3>Station 009</h3>
-            <h4>Observatoire</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 7
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
-                <b>Places libres:</b> 1
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_4f92e9509e5074b39914998e544fdd62.setIcon(div_icon_39c8dec3c38a9b86c1fdf0ccef75a847);
-            
-    
-            var marker_8dfed5bb96b6e86a753617458cc627c4 = L.marker(
-                [43.603038, 3.875796],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_971fc4c06743ff8548e46d7c8b53c7e8 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_8dfed5bb96b6e86a753617458cc627c4.setIcon(div_icon_971fc4c06743ff8548e46d7c8b53c7e8);
-        
-    
-            marker_8dfed5bb96b6e86a753617458cc627c4.bindTooltip(
-                `<div>
-                     
-            <h3>Station 010</h3>
-            <h4>Rondelet</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 9
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 7
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_8dfed5bb96b6e86a753617458cc627c4.setIcon(div_icon_971fc4c06743ff8548e46d7c8b53c7e8);
-            
-    
-            var marker_369c3b3dc5e394fe0c66b31d2716d8b3 = L.marker(
-                [43.608491, 3.868389],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_4ae4988152b0412b92bf43a244ef5bfd = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_369c3b3dc5e394fe0c66b31d2716d8b3.setIcon(div_icon_4ae4988152b0412b92bf43a244ef5bfd);
-        
-    
-            marker_369c3b3dc5e394fe0c66b31d2716d8b3.bindTooltip(
-                `<div>
-                     
-            <h3>Station 011</h3>
-            <h4>Plan Cabanes</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 11
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
-                <b>Places libres:</b> 1
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_369c3b3dc5e394fe0c66b31d2716d8b3.setIcon(div_icon_4ae4988152b0412b92bf43a244ef5bfd);
-            
-    
-            var marker_387c251bdacf7cf47d5d3a921b0018c9 = L.marker(
-                [43.622629, 3.868375],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_5196e5c30fbe08aa8d770202f2b9e439 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_387c251bdacf7cf47d5d3a921b0018c9.setIcon(div_icon_5196e5c30fbe08aa8d770202f2b9e439);
-        
-    
-            marker_387c251bdacf7cf47d5d3a921b0018c9.bindTooltip(
-                `<div>
-                     
-            <h3>Station 012</h3>
-            <h4>Boutonnet</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
                 <b>Vélos disponibles:</b> 1
@@ -669,36 +513,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_387c251bdacf7cf47d5d3a921b0018c9.setIcon(div_icon_5196e5c30fbe08aa8d770202f2b9e439);
+                marker_b77be19f625c55cb5080efca4b51e9f7.setIcon(div_icon_22b8e020a12b12f78d7930160e64b083);
             
     
-            var marker_5c760f296826143dbc2fbe9dd3057bbd = L.marker(
-                [43.616742, 3.87998],
+            var marker_0c6359a52ad6be00f385f25014158d96 = L.marker(
+                [43.606301, 3.87724],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_bddc5d0986c2aff8686008ba34e0e1bf = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_0e173638f4657caf4ceb3cf952090d91 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_5c760f296826143dbc2fbe9dd3057bbd.setIcon(div_icon_bddc5d0986c2aff8686008ba34e0e1bf);
+            marker_0c6359a52ad6be00f385f25014158d96.setIcon(div_icon_0e173638f4657caf4ceb3cf952090d91);
         
     
-            marker_5c760f296826143dbc2fbe9dd3057bbd.bindTooltip(
+            marker_0c6359a52ad6be00f385f25014158d96.bindTooltip(
                 `<div>
                      
-            <h3>Station 013</h3>
-            <h4>Emile Combes</h4>
-            2025-04-09T20:28:08.000Z
+            <h3>Station 009</h3>
+            <h4>Observatoire</h4>
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 8
+                <b>Vélos disponibles:</b> 7
             </div>
             <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
-                <b>Places libres:</b> 0
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
+                <b>Places libres:</b> 1
             </div>
         
                  </div>`,
@@ -708,302 +552,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_5c760f296826143dbc2fbe9dd3057bbd.setIcon(div_icon_bddc5d0986c2aff8686008ba34e0e1bf);
+                marker_0c6359a52ad6be00f385f25014158d96.setIcon(div_icon_0e173638f4657caf4ceb3cf952090d91);
             
     
-            var marker_8884e44b01bc8589a0ef1e2750f126df = L.marker(
-                [43.616698, 3.884981],
+            var marker_ab2cd7acbe1f396563047b99ed131bc6 = L.marker(
+                [43.603038, 3.875796],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_57bcd04c797296038011e1893aba747c = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_8884e44b01bc8589a0ef1e2750f126df.setIcon(div_icon_57bcd04c797296038011e1893aba747c);
-        
-    
-            marker_8884e44b01bc8589a0ef1e2750f126df.bindTooltip(
-                `<div>
-                     
-            <h3>Station 014</h3>
-            <h4>Beaux-Arts</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 13
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Places libres:</b> 3
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_8884e44b01bc8589a0ef1e2750f126df.setIcon(div_icon_57bcd04c797296038011e1893aba747c);
-            
-    
-            var marker_087635eeba1ba7abcddae6c3c39d64de = L.marker(
-                [43.618692, 3.893844],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_2324cd3a592d422c1011556f45e79cc4 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_087635eeba1ba7abcddae6c3c39d64de.setIcon(div_icon_2324cd3a592d422c1011556f45e79cc4);
-        
-    
-            marker_087635eeba1ba7abcddae6c3c39d64de.bindTooltip(
-                `<div>
-                     
-            <h3>Station 015</h3>
-            <h4>Les Aubes</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 5
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Places libres:</b> 3
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_087635eeba1ba7abcddae6c3c39d64de.setIcon(div_icon_2324cd3a592d422c1011556f45e79cc4);
-            
-    
-            var marker_d1c31ef0aa337edae82d736664a20227 = L.marker(
-                [43.607942, 3.890634],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_eeb6e7eff6a05403252eebecf2536fd2 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_d1c31ef0aa337edae82d736664a20227.setIcon(div_icon_eeb6e7eff6a05403252eebecf2536fd2);
-        
-    
-            marker_d1c31ef0aa337edae82d736664a20227.bindTooltip(
-                `<div>
-                     
-            <h3>Station 016</h3>
-            <h4>Antigone centre</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Vélos disponibles:</b> 4
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 8
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_d1c31ef0aa337edae82d736664a20227.setIcon(div_icon_eeb6e7eff6a05403252eebecf2536fd2);
-            
-    
-            var marker_e0af5edcdbb08711be7f5b952488854e = L.marker(
-                [43.608218, 3.89314],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_84efd241976401b593ce5f68999dfdc1 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_e0af5edcdbb08711be7f5b952488854e.setIcon(div_icon_84efd241976401b593ce5f68999dfdc1);
-        
-    
-            marker_e0af5edcdbb08711be7f5b952488854e.bindTooltip(
-                `<div>
-                     
-            <h3>Station 017</h3>
-            <h4>Médiathèque Emile Zola</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
-                <b>Vélos disponibles:</b> 1
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 15
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_e0af5edcdbb08711be7f5b952488854e.setIcon(div_icon_84efd241976401b593ce5f68999dfdc1);
-            
-    
-            var marker_cd60e01a14853aa4184e5aaa91592744 = L.marker(
-                [43.607859, 3.886644],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_fb9a39698854ddefa247b2b558e2731e = L.divIcon({
+            var div_icon_ab70de4e516b0fac4c79e1ee9b1e8538 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_cd60e01a14853aa4184e5aaa91592744.setIcon(div_icon_fb9a39698854ddefa247b2b558e2731e);
+            marker_ab2cd7acbe1f396563047b99ed131bc6.setIcon(div_icon_ab70de4e516b0fac4c79e1ee9b1e8538);
         
     
-            marker_cd60e01a14853aa4184e5aaa91592744.bindTooltip(
+            marker_ab2cd7acbe1f396563047b99ed131bc6.bindTooltip(
                 `<div>
                      
-            <h3>Station 018</h3>
-            <h4>Nombre d Or</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 11
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 5
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_cd60e01a14853aa4184e5aaa91592744.setIcon(div_icon_fb9a39698854ddefa247b2b558e2731e);
-            
-    
-            var marker_bde9b5dab951869429d804494428627e = L.marker(
-                [43.614642, 3.877648],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_02024c49dcb1dfbd8847af3c40575046 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_bde9b5dab951869429d804494428627e.setIcon(div_icon_02024c49dcb1dfbd8847af3c40575046);
-        
-    
-            marker_bde9b5dab951869429d804494428627e.bindTooltip(
-                `<div>
-                     
-            <h3>Station 019</h3>
-            <h4>Louis Blanc</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 16
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
-                <b>Places libres:</b> 0
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_bde9b5dab951869429d804494428627e.setIcon(div_icon_02024c49dcb1dfbd8847af3c40575046);
-            
-    
-            var marker_0b55761c01487cbd29d519f8087b64b7 = L.marker(
-                [43.607106, 3.870693],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_92e6c76516afdb9c9bc2a9313b2856a3 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_0b55761c01487cbd29d519f8087b64b7.setIcon(div_icon_92e6c76516afdb9c9bc2a9313b2856a3);
-        
-    
-            marker_0b55761c01487cbd29d519f8087b64b7.bindTooltip(
-                `<div>
-                     
-            <h3>Station 020</h3>
-            <h4>Gambetta</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Vélos disponibles:</b> 3
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 5
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_0b55761c01487cbd29d519f8087b64b7.setIcon(div_icon_92e6c76516afdb9c9bc2a9313b2856a3);
-            
-    
-            var marker_70f5108d49977e039c7474871a4d9777 = L.marker(
-                [43.60032, 3.89851],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_d2df764b9741bd9dbff9adeca5621056 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_70f5108d49977e039c7474871a4d9777.setIcon(div_icon_d2df764b9741bd9dbff9adeca5621056);
-        
-    
-            marker_70f5108d49977e039c7474871a4d9777.bindTooltip(
-                `<div>
-                     
-            <h3>Station 021</h3>
-            <h4>Port Marianne</h4>
-            2025-04-09T20:28:08.000Z
+            <h3>Station 010</h3>
+            <h4>Rondelet</h4>
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 6
@@ -1020,29 +591,458 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_70f5108d49977e039c7474871a4d9777.setIcon(div_icon_d2df764b9741bd9dbff9adeca5621056);
+                marker_ab2cd7acbe1f396563047b99ed131bc6.setIcon(div_icon_ab70de4e516b0fac4c79e1ee9b1e8538);
             
     
-            var marker_a728aa823886c3356bbf5f991892c74d = L.marker(
+            var marker_9cc0edfe42bbc8d317bc884775ca63e1 = L.marker(
+                [43.608491, 3.868389],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_f3e2dacf8957590516eb124b197a727d = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_9cc0edfe42bbc8d317bc884775ca63e1.setIcon(div_icon_f3e2dacf8957590516eb124b197a727d);
+        
+    
+            marker_9cc0edfe42bbc8d317bc884775ca63e1.bindTooltip(
+                `<div>
+                     
+            <h3>Station 011</h3>
+            <h4>Plan Cabanes</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 11
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
+                <b>Places libres:</b> 1
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_9cc0edfe42bbc8d317bc884775ca63e1.setIcon(div_icon_f3e2dacf8957590516eb124b197a727d);
+            
+    
+            var marker_fe64d7bdfb04137c55a8d6734a1fb6cb = L.marker(
+                [43.622629, 3.868375],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_9fb268acd20bd7722fc77c9a6e3892a9 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_fe64d7bdfb04137c55a8d6734a1fb6cb.setIcon(div_icon_9fb268acd20bd7722fc77c9a6e3892a9);
+        
+    
+            marker_fe64d7bdfb04137c55a8d6734a1fb6cb.bindTooltip(
+                `<div>
+                     
+            <h3>Station 012</h3>
+            <h4>Boutonnet</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: black;&quot;></i> 
+                <b>Vélos disponibles:</b> 0
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 12
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_fe64d7bdfb04137c55a8d6734a1fb6cb.setIcon(div_icon_9fb268acd20bd7722fc77c9a6e3892a9);
+            
+    
+            var marker_4755246ac29c4b9cc183bc180c8a6236 = L.marker(
+                [43.616742, 3.87998],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_cef3785485d094976903863e7c6ab25b = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_4755246ac29c4b9cc183bc180c8a6236.setIcon(div_icon_cef3785485d094976903863e7c6ab25b);
+        
+    
+            marker_4755246ac29c4b9cc183bc180c8a6236.bindTooltip(
+                `<div>
+                     
+            <h3>Station 013</h3>
+            <h4>Emile Combes</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 8
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
+                <b>Places libres:</b> 0
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_4755246ac29c4b9cc183bc180c8a6236.setIcon(div_icon_cef3785485d094976903863e7c6ab25b);
+            
+    
+            var marker_cfd89ddcfe0722862da6ba9ccd4b6658 = L.marker(
+                [43.616698, 3.884981],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_a283b2c448c62fa85c0fa1b8bdcba33c = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_cfd89ddcfe0722862da6ba9ccd4b6658.setIcon(div_icon_a283b2c448c62fa85c0fa1b8bdcba33c);
+        
+    
+            marker_cfd89ddcfe0722862da6ba9ccd4b6658.bindTooltip(
+                `<div>
+                     
+            <h3>Station 014</h3>
+            <h4>Beaux-Arts</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 14
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
+                <b>Places libres:</b> 2
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_cfd89ddcfe0722862da6ba9ccd4b6658.setIcon(div_icon_a283b2c448c62fa85c0fa1b8bdcba33c);
+            
+    
+            var marker_568c0310f4753be0bbb66699a937f5f2 = L.marker(
+                [43.618692, 3.893844],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_11e7ad96d4fd1f55cca1375a464cedf7 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_568c0310f4753be0bbb66699a937f5f2.setIcon(div_icon_11e7ad96d4fd1f55cca1375a464cedf7);
+        
+    
+            marker_568c0310f4753be0bbb66699a937f5f2.bindTooltip(
+                `<div>
+                     
+            <h3>Station 015</h3>
+            <h4>Les Aubes</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 5
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Places libres:</b> 3
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_568c0310f4753be0bbb66699a937f5f2.setIcon(div_icon_11e7ad96d4fd1f55cca1375a464cedf7);
+            
+    
+            var marker_db86ea66c7d04ccde5afebe2e612ebcb = L.marker(
+                [43.607942, 3.890634],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_31216378d46764bdd7b47557591cb1de = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_db86ea66c7d04ccde5afebe2e612ebcb.setIcon(div_icon_31216378d46764bdd7b47557591cb1de);
+        
+    
+            marker_db86ea66c7d04ccde5afebe2e612ebcb.bindTooltip(
+                `<div>
+                     
+            <h3>Station 016</h3>
+            <h4>Antigone centre</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 4
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 8
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_db86ea66c7d04ccde5afebe2e612ebcb.setIcon(div_icon_31216378d46764bdd7b47557591cb1de);
+            
+    
+            var marker_1e0d140bdae3337a2d151851e0145b49 = L.marker(
+                [43.608218, 3.89314],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_efa3bf98cbf0ed44a6133790f42ffb54 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_1e0d140bdae3337a2d151851e0145b49.setIcon(div_icon_efa3bf98cbf0ed44a6133790f42ffb54);
+        
+    
+            marker_1e0d140bdae3337a2d151851e0145b49.bindTooltip(
+                `<div>
+                     
+            <h3>Station 017</h3>
+            <h4>Médiathèque Emile Zola</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
+                <b>Vélos disponibles:</b> 1
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 15
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_1e0d140bdae3337a2d151851e0145b49.setIcon(div_icon_efa3bf98cbf0ed44a6133790f42ffb54);
+            
+    
+            var marker_95c9b0336611ed9f57df3652199258ac = L.marker(
+                [43.607859, 3.886644],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_0c72acff3df85012ed9bcd3f258a1f00 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_95c9b0336611ed9f57df3652199258ac.setIcon(div_icon_0c72acff3df85012ed9bcd3f258a1f00);
+        
+    
+            marker_95c9b0336611ed9f57df3652199258ac.bindTooltip(
+                `<div>
+                     
+            <h3>Station 018</h3>
+            <h4>Nombre d Or</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 11
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 5
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_95c9b0336611ed9f57df3652199258ac.setIcon(div_icon_0c72acff3df85012ed9bcd3f258a1f00);
+            
+    
+            var marker_f97d9eccc12b2bb42f5d1a0f1ce5bb68 = L.marker(
+                [43.614642, 3.877648],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_040ed27c67c48dc02cd668b9e9fdc7a0 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_f97d9eccc12b2bb42f5d1a0f1ce5bb68.setIcon(div_icon_040ed27c67c48dc02cd668b9e9fdc7a0);
+        
+    
+            marker_f97d9eccc12b2bb42f5d1a0f1ce5bb68.bindTooltip(
+                `<div>
+                     
+            <h3>Station 019</h3>
+            <h4>Louis Blanc</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 16
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
+                <b>Places libres:</b> 0
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_f97d9eccc12b2bb42f5d1a0f1ce5bb68.setIcon(div_icon_040ed27c67c48dc02cd668b9e9fdc7a0);
+            
+    
+            var marker_b66cf07f92745ff1f1a15b43dfacfd45 = L.marker(
+                [43.607106, 3.870693],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_da7501a6e9af2017a7e71853ad855a4d = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_b66cf07f92745ff1f1a15b43dfacfd45.setIcon(div_icon_da7501a6e9af2017a7e71853ad855a4d);
+        
+    
+            marker_b66cf07f92745ff1f1a15b43dfacfd45.bindTooltip(
+                `<div>
+                     
+            <h3>Station 020</h3>
+            <h4>Gambetta</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 3
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 5
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_b66cf07f92745ff1f1a15b43dfacfd45.setIcon(div_icon_da7501a6e9af2017a7e71853ad855a4d);
+            
+    
+            var marker_f154378fb15116aa6653b4bbd89b876b = L.marker(
+                [43.60032, 3.89851],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_970449e0ec5967b060a3752e700827af = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_f154378fb15116aa6653b4bbd89b876b.setIcon(div_icon_970449e0ec5967b060a3752e700827af);
+        
+    
+            marker_f154378fb15116aa6653b4bbd89b876b.bindTooltip(
+                `<div>
+                     
+            <h3>Station 021</h3>
+            <h4>Port Marianne</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 4
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 12
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_f154378fb15116aa6653b4bbd89b876b.setIcon(div_icon_970449e0ec5967b060a3752e700827af);
+            
+    
+            var marker_ac416e57bdd9a69ddc70ec9062604b6f = L.marker(
                 [43.612659, 3.867734],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_d8868c643b027a6a1f5c0071966b7b0d = L.divIcon({
+            var div_icon_c98867dbde2b6654d5f6f218c89c2b2a = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_a728aa823886c3356bbf5f991892c74d.setIcon(div_icon_d8868c643b027a6a1f5c0071966b7b0d);
+            marker_ac416e57bdd9a69ddc70ec9062604b6f.setIcon(div_icon_c98867dbde2b6654d5f6f218c89c2b2a);
         
     
-            marker_a728aa823886c3356bbf5f991892c74d.bindTooltip(
+            marker_ac416e57bdd9a69ddc70ec9062604b6f.bindTooltip(
                 `<div>
                      
             <h3>Station 023</h3>
             <h4>Les Arceaux</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 4
@@ -1059,29 +1059,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_a728aa823886c3356bbf5f991892c74d.setIcon(div_icon_d8868c643b027a6a1f5c0071966b7b0d);
+                marker_ac416e57bdd9a69ddc70ec9062604b6f.setIcon(div_icon_c98867dbde2b6654d5f6f218c89c2b2a);
             
     
-            var marker_b8f56d2aaa945f2b15d4af0b832cdf1c = L.marker(
+            var marker_92cdbadb2445ff755a326d98014bcab9 = L.marker(
                 [43.601143, 3.884373],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_70de2f62ad4116dbce59e2343e5ddc49 = L.divIcon({
+            var div_icon_acd3aa95803d850724eaaa52f1273a54 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_b8f56d2aaa945f2b15d4af0b832cdf1c.setIcon(div_icon_70de2f62ad4116dbce59e2343e5ddc49);
+            marker_92cdbadb2445ff755a326d98014bcab9.setIcon(div_icon_acd3aa95803d850724eaaa52f1273a54);
         
     
-            marker_b8f56d2aaa945f2b15d4af0b832cdf1c.bindTooltip(
+            marker_92cdbadb2445ff755a326d98014bcab9.bindTooltip(
                 `<div>
                      
             <h3>Station 024</h3>
             <h4>Cité Mion</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 6
@@ -1098,29 +1098,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_b8f56d2aaa945f2b15d4af0b832cdf1c.setIcon(div_icon_70de2f62ad4116dbce59e2343e5ddc49);
+                marker_92cdbadb2445ff755a326d98014bcab9.setIcon(div_icon_acd3aa95803d850724eaaa52f1273a54);
             
     
-            var marker_3294f7740076e9fc5c4a671f414c0e66 = L.marker(
+            var marker_cea99db34244de1840485d4f1e23c9c5 = L.marker(
                 [43.599817, 3.875757],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_29c32608e3dcc9450f6e89e8c72a58e5 = L.divIcon({
+            var div_icon_f6bcb734a836b03a0f0778ad677cb401 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_3294f7740076e9fc5c4a671f414c0e66.setIcon(div_icon_29c32608e3dcc9450f6e89e8c72a58e5);
+            marker_cea99db34244de1840485d4f1e23c9c5.setIcon(div_icon_f6bcb734a836b03a0f0778ad677cb401);
         
     
-            marker_3294f7740076e9fc5c4a671f414c0e66.bindTooltip(
+            marker_cea99db34244de1840485d4f1e23c9c5.bindTooltip(
                 `<div>
                      
             <h3>Station 025</h3>
             <h4>Nouveau Saint-Roch</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 5
@@ -1137,29 +1137,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_3294f7740076e9fc5c4a671f414c0e66.setIcon(div_icon_29c32608e3dcc9450f6e89e8c72a58e5);
+                marker_cea99db34244de1840485d4f1e23c9c5.setIcon(div_icon_f6bcb734a836b03a0f0778ad677cb401);
             
     
-            var marker_287d479998b8aa8f3164d405e615331b = L.marker(
+            var marker_0cc2bbea3a234d84f66b0c50e54f8083 = L.marker(
                 [43.603553, 3.867884],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_63543ecf5f2cb3d98d918db33b1b1d8f = L.divIcon({
+            var div_icon_4256322adc91a304a533372ae668bb9e = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_287d479998b8aa8f3164d405e615331b.setIcon(div_icon_63543ecf5f2cb3d98d918db33b1b1d8f);
+            marker_0cc2bbea3a234d84f66b0c50e54f8083.setIcon(div_icon_4256322adc91a304a533372ae668bb9e);
         
     
-            marker_287d479998b8aa8f3164d405e615331b.bindTooltip(
+            marker_0cc2bbea3a234d84f66b0c50e54f8083.bindTooltip(
                 `<div>
                      
             <h3>Station 026</h3>
             <h4>Renouvier</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 5
@@ -1176,24 +1176,24 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_287d479998b8aa8f3164d405e615331b.setIcon(div_icon_63543ecf5f2cb3d98d918db33b1b1d8f);
+                marker_0cc2bbea3a234d84f66b0c50e54f8083.setIcon(div_icon_4256322adc91a304a533372ae668bb9e);
             
     
-            var marker_c237e8bdc7577d5b0fcd5bac9116241c = L.marker(
+            var marker_2325a58d2f90f8c1a5fa7cc19dc8e333 = L.marker(
                 [43.603727, 3.918979],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_c6c3b62747588002ef21961449c9dac6 = L.divIcon({
+            var div_icon_96131c0c5cbf25fb0befa25007d57166 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_c237e8bdc7577d5b0fcd5bac9116241c.setIcon(div_icon_c6c3b62747588002ef21961449c9dac6);
+            marker_2325a58d2f90f8c1a5fa7cc19dc8e333.setIcon(div_icon_96131c0c5cbf25fb0befa25007d57166);
         
     
-            marker_c237e8bdc7577d5b0fcd5bac9116241c.bindTooltip(
+            marker_2325a58d2f90f8c1a5fa7cc19dc8e333.bindTooltip(
                 `<div>
                      
             <h3>Station 027</h3>
@@ -1215,24 +1215,24 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_c237e8bdc7577d5b0fcd5bac9116241c.setIcon(div_icon_c6c3b62747588002ef21961449c9dac6);
+                marker_2325a58d2f90f8c1a5fa7cc19dc8e333.setIcon(div_icon_96131c0c5cbf25fb0befa25007d57166);
             
     
-            var marker_c3e2a1ef4c821e0f9f0520283a9dfcfc = L.marker(
+            var marker_bdfffd699d116fe9860a7ea1a39f8d2b = L.marker(
                 [43.605021, 3.875065],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_4ddeb9f1421640554094cd2ef51bbd68 = L.divIcon({
+            var div_icon_8155cce304158d32501ecece0cc97557 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_c3e2a1ef4c821e0f9f0520283a9dfcfc.setIcon(div_icon_4ddeb9f1421640554094cd2ef51bbd68);
+            marker_bdfffd699d116fe9860a7ea1a39f8d2b.setIcon(div_icon_8155cce304158d32501ecece0cc97557);
         
     
-            marker_c3e2a1ef4c821e0f9f0520283a9dfcfc.bindTooltip(
+            marker_bdfffd699d116fe9860a7ea1a39f8d2b.bindTooltip(
                 `<div>
                      
             <h3>Station 028</h3>
@@ -1254,36 +1254,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_c3e2a1ef4c821e0f9f0520283a9dfcfc.setIcon(div_icon_4ddeb9f1421640554094cd2ef51bbd68);
+                marker_bdfffd699d116fe9860a7ea1a39f8d2b.setIcon(div_icon_8155cce304158d32501ecece0cc97557);
             
     
-            var marker_0ccc828c44f684f1db2f86217d5c0805 = L.marker(
+            var marker_20f378af9380681de55310942db7ca56 = L.marker(
                 [43.603424, 3.899263],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_5185051b684762a78800f8edb38780de = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_bbc9c37d7552acc759a009862d9729a1 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_0ccc828c44f684f1db2f86217d5c0805.setIcon(div_icon_5185051b684762a78800f8edb38780de);
+            marker_20f378af9380681de55310942db7ca56.setIcon(div_icon_bbc9c37d7552acc759a009862d9729a1);
         
     
-            marker_0ccc828c44f684f1db2f86217d5c0805.bindTooltip(
+            marker_20f378af9380681de55310942db7ca56.bindTooltip(
                 `<div>
                      
             <h3>Station 029</h3>
             <h4>Richter</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 5
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 4
             </div>
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 11
+                <b>Places libres:</b> 12
             </div>
         
                  </div>`,
@@ -1293,36 +1293,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_0ccc828c44f684f1db2f86217d5c0805.setIcon(div_icon_5185051b684762a78800f8edb38780de);
+                marker_20f378af9380681de55310942db7ca56.setIcon(div_icon_bbc9c37d7552acc759a009862d9729a1);
             
     
-            var marker_f9ed4856e753893b26b48daca1c813e8 = L.marker(
+            var marker_a6626e5562bf447d2407d3d9ea828f8d = L.marker(
                 [43.618762, 3.865971],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_3f4b4f367a2c785724b3590c4f9b4b75 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_fcf28eb6921fd07d0e39bef03f3b2138 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_f9ed4856e753893b26b48daca1c813e8.setIcon(div_icon_3f4b4f367a2c785724b3590c4f9b4b75);
+            marker_a6626e5562bf447d2407d3d9ea828f8d.setIcon(div_icon_fcf28eb6921fd07d0e39bef03f3b2138);
         
     
-            marker_f9ed4856e753893b26b48daca1c813e8.bindTooltip(
+            marker_a6626e5562bf447d2407d3d9ea828f8d.bindTooltip(
                 `<div>
                      
             <h3>Station 030</h3>
             <h4>Charles Flahault</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 8
+                <b>Vélos disponibles:</b> 7
             </div>
             <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
-                <b>Places libres:</b> 0
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
+                <b>Places libres:</b> 1
             </div>
         
                  </div>`,
@@ -1332,29 +1332,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_f9ed4856e753893b26b48daca1c813e8.setIcon(div_icon_3f4b4f367a2c785724b3590c4f9b4b75);
+                marker_a6626e5562bf447d2407d3d9ea828f8d.setIcon(div_icon_fcf28eb6921fd07d0e39bef03f3b2138);
             
     
-            var marker_eb6e64ef059ac551b7df360327ea5ee5 = L.marker(
+            var marker_380452cd458e3b91f44fc7840e46c72c = L.marker(
                 [43.603767, 3.888659],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_326521e643a15718a0d7e90f0d25bdae = L.divIcon({
+            var div_icon_ab043d226ef273cd4a7165413594f10c = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_eb6e64ef059ac551b7df360327ea5ee5.setIcon(div_icon_326521e643a15718a0d7e90f0d25bdae);
+            marker_380452cd458e3b91f44fc7840e46c72c.setIcon(div_icon_ab043d226ef273cd4a7165413594f10c);
         
     
-            marker_eb6e64ef059ac551b7df360327ea5ee5.bindTooltip(
+            marker_380452cd458e3b91f44fc7840e46c72c.bindTooltip(
                 `<div>
                      
             <h3>Station 031</h3>
             <h4>Voltaire</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 5
@@ -1371,29 +1371,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_eb6e64ef059ac551b7df360327ea5ee5.setIcon(div_icon_326521e643a15718a0d7e90f0d25bdae);
+                marker_380452cd458e3b91f44fc7840e46c72c.setIcon(div_icon_ab043d226ef273cd4a7165413594f10c);
             
     
-            var marker_79046a4bc71e5d28b6925237bf8742bb = L.marker(
+            var marker_2803f376bad26f6cd365eb7db3dcc1bf = L.marker(
                 [43.59048, 3.884611],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_68a2b9f3f06799318b0df09ee96839f8 = L.divIcon({
+            var div_icon_96e680c27644591f5d636ed91fc94879 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_79046a4bc71e5d28b6925237bf8742bb.setIcon(div_icon_68a2b9f3f06799318b0df09ee96839f8);
+            marker_2803f376bad26f6cd365eb7db3dcc1bf.setIcon(div_icon_96e680c27644591f5d636ed91fc94879);
         
     
-            marker_79046a4bc71e5d28b6925237bf8742bb.bindTooltip(
+            marker_2803f376bad26f6cd365eb7db3dcc1bf.bindTooltip(
                 `<div>
                      
             <h3>Station 032</h3>
             <h4>Prés d Arènes</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: black;&quot;></i> 
                 <b>Vélos disponibles:</b> 0
@@ -1410,36 +1410,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_79046a4bc71e5d28b6925237bf8742bb.setIcon(div_icon_68a2b9f3f06799318b0df09ee96839f8);
+                marker_2803f376bad26f6cd365eb7db3dcc1bf.setIcon(div_icon_96e680c27644591f5d636ed91fc94879);
             
     
-            var marker_c10efe76ffb4aef8584cbd9bb04af9c7 = L.marker(
+            var marker_64ba452ee9aec945c9b0a8109704078a = L.marker(
                 [43.590757, 3.890616],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_2ffa19ae17329d6cc000fda29c29bbf1 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_26c5d0df6b01023275a88a1aa87a80ef = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_c10efe76ffb4aef8584cbd9bb04af9c7.setIcon(div_icon_2ffa19ae17329d6cc000fda29c29bbf1);
+            marker_64ba452ee9aec945c9b0a8109704078a.setIcon(div_icon_26c5d0df6b01023275a88a1aa87a80ef);
         
     
-            marker_c10efe76ffb4aef8584cbd9bb04af9c7.bindTooltip(
+            marker_64ba452ee9aec945c9b0a8109704078a.bindTooltip(
                 `<div>
                      
             <h3>Station 033</h3>
             <h4>Garcia Lorca</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 6
+                <b>Vélos disponibles:</b> 8
             </div>
             <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
-                <b>Places libres:</b> 2
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
+                <b>Places libres:</b> 0
             </div>
         
                  </div>`,
@@ -1449,29 +1449,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_c10efe76ffb4aef8584cbd9bb04af9c7.setIcon(div_icon_2ffa19ae17329d6cc000fda29c29bbf1);
+                marker_64ba452ee9aec945c9b0a8109704078a.setIcon(div_icon_26c5d0df6b01023275a88a1aa87a80ef);
             
     
-            var marker_6a157e503054a6657a8cd114d7c6260b = L.marker(
+            var marker_6e7d7ff06f1fd77cd682ee1955301d72 = L.marker(
                 [43.635429956, 3.871179397],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_618cec38d6a3062751158f78b8601b9e = L.divIcon({
+            var div_icon_9c55296a2679e65e40329d63c65cb075 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_6a157e503054a6657a8cd114d7c6260b.setIcon(div_icon_618cec38d6a3062751158f78b8601b9e);
+            marker_6e7d7ff06f1fd77cd682ee1955301d72.setIcon(div_icon_9c55296a2679e65e40329d63c65cb075);
         
     
-            marker_6a157e503054a6657a8cd114d7c6260b.bindTooltip(
+            marker_6e7d7ff06f1fd77cd682ee1955301d72.bindTooltip(
                 `<div>
                      
             <h3>Station 034</h3>
             <h4>Vert Bois</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
                 <b>Vélos disponibles:</b> 1
@@ -1488,29 +1488,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_6a157e503054a6657a8cd114d7c6260b.setIcon(div_icon_618cec38d6a3062751158f78b8601b9e);
+                marker_6e7d7ff06f1fd77cd682ee1955301d72.setIcon(div_icon_9c55296a2679e65e40329d63c65cb075);
             
     
-            var marker_cbb38c6f8b9a536a06719435648fe103 = L.marker(
+            var marker_746c56d89fe1299df62b12d52da5799d = L.marker(
                 [43.633679, 3.832861],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_219c9e4d16ed81b74e69597ef6c420ec = L.divIcon({
+            var div_icon_b62d76959200751545f6388e7c1de426 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_cbb38c6f8b9a536a06719435648fe103.setIcon(div_icon_219c9e4d16ed81b74e69597ef6c420ec);
+            marker_746c56d89fe1299df62b12d52da5799d.setIcon(div_icon_b62d76959200751545f6388e7c1de426);
         
     
-            marker_cbb38c6f8b9a536a06719435648fe103.bindTooltip(
+            marker_746c56d89fe1299df62b12d52da5799d.bindTooltip(
                 `<div>
                      
             <h3>Station 035</h3>
             <h4>Malbosc</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
                 <b>Vélos disponibles:</b> 2
@@ -1527,36 +1527,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_cbb38c6f8b9a536a06719435648fe103.setIcon(div_icon_219c9e4d16ed81b74e69597ef6c420ec);
+                marker_746c56d89fe1299df62b12d52da5799d.setIcon(div_icon_b62d76959200751545f6388e7c1de426);
             
     
-            var marker_7464e3650a9a24facadf2209686e006c = L.marker(
+            var marker_c622e33f298928b376e5aa6f082b036c = L.marker(
                 [43.634242, 3.849128],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_43fdf181c38346bfab10423579f87fb7 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_49c36b6e12b413818a54f44e32c4a0b8 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_7464e3650a9a24facadf2209686e006c.setIcon(div_icon_43fdf181c38346bfab10423579f87fb7);
+            marker_c622e33f298928b376e5aa6f082b036c.setIcon(div_icon_49c36b6e12b413818a54f44e32c4a0b8);
         
     
-            marker_7464e3650a9a24facadf2209686e006c.bindTooltip(
+            marker_c622e33f298928b376e5aa6f082b036c.bindTooltip(
                 `<div>
                      
             <h3>Station 036</h3>
             <h4>Occitanie</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 5
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 4
             </div>
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 27
+                <b>Places libres:</b> 28
             </div>
         
                  </div>`,
@@ -1566,29 +1566,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_7464e3650a9a24facadf2209686e006c.setIcon(div_icon_43fdf181c38346bfab10423579f87fb7);
+                marker_c622e33f298928b376e5aa6f082b036c.setIcon(div_icon_49c36b6e12b413818a54f44e32c4a0b8);
             
     
-            var marker_9b457ebbbe127c461786f4deca165cf7 = L.marker(
+            var marker_cb52d189d815d83745f763fb8e3b2eb7 = L.marker(
                 [43.631318, 3.861299],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_8cc827079a34502cde617c15e5c2ad96 = L.divIcon({
+            var div_icon_0f19e906d88538e281000e7d0605ccb2 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_9b457ebbbe127c461786f4deca165cf7.setIcon(div_icon_8cc827079a34502cde617c15e5c2ad96);
+            marker_cb52d189d815d83745f763fb8e3b2eb7.setIcon(div_icon_0f19e906d88538e281000e7d0605ccb2);
         
     
-            marker_9b457ebbbe127c461786f4deca165cf7.bindTooltip(
+            marker_cb52d189d815d83745f763fb8e3b2eb7.bindTooltip(
                 `<div>
                      
             <h3>Station 037</h3>
             <h4>FacdesSciences</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 4
@@ -1605,29 +1605,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_9b457ebbbe127c461786f4deca165cf7.setIcon(div_icon_8cc827079a34502cde617c15e5c2ad96);
+                marker_cb52d189d815d83745f763fb8e3b2eb7.setIcon(div_icon_0f19e906d88538e281000e7d0605ccb2);
             
     
-            var marker_5bc98f9a158c99d2da029e5decd2e2db = L.marker(
+            var marker_e2baa614c297a55e703b88b2cc5a23e8 = L.marker(
                 [43.630437405, 3.869538705],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_6931f0c82f528d56f86da3043995c65b = L.divIcon({
+            var div_icon_cd6e38721a1d70433c6a36a7b332cef5 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_5bc98f9a158c99d2da029e5decd2e2db.setIcon(div_icon_6931f0c82f528d56f86da3043995c65b);
+            marker_e2baa614c297a55e703b88b2cc5a23e8.setIcon(div_icon_cd6e38721a1d70433c6a36a7b332cef5);
         
     
-            marker_5bc98f9a158c99d2da029e5decd2e2db.bindTooltip(
+            marker_e2baa614c297a55e703b88b2cc5a23e8.bindTooltip(
                 `<div>
                      
             <h3>Station 038</h3>
             <h4>Fac de Lettres</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
                 <b>Vélos disponibles:</b> 1
@@ -1644,29 +1644,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_5bc98f9a158c99d2da029e5decd2e2db.setIcon(div_icon_6931f0c82f528d56f86da3043995c65b);
+                marker_e2baa614c297a55e703b88b2cc5a23e8.setIcon(div_icon_cd6e38721a1d70433c6a36a7b332cef5);
             
     
-            var marker_183ee0c18179a9732425c6d06f629816 = L.marker(
+            var marker_1b46ef85caa0dca5ba16b73f29e2ac03 = L.marker(
                 [43.626163, 3.882492],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_90833fd4e826a36f9144614a50dd86f0 = L.divIcon({
+            var div_icon_23a55108cef64516fc62998bdb52e621 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_183ee0c18179a9732425c6d06f629816.setIcon(div_icon_90833fd4e826a36f9144614a50dd86f0);
+            marker_1b46ef85caa0dca5ba16b73f29e2ac03.setIcon(div_icon_23a55108cef64516fc62998bdb52e621);
         
     
-            marker_183ee0c18179a9732425c6d06f629816.bindTooltip(
+            marker_1b46ef85caa0dca5ba16b73f29e2ac03.bindTooltip(
                 `<div>
                      
             <h3>Station 039</h3>
             <h4>Aiguelongue</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 3
@@ -1683,36 +1683,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_183ee0c18179a9732425c6d06f629816.setIcon(div_icon_90833fd4e826a36f9144614a50dd86f0);
+                marker_1b46ef85caa0dca5ba16b73f29e2ac03.setIcon(div_icon_23a55108cef64516fc62998bdb52e621);
             
     
-            var marker_c0214e3477d28c6b9b3a4308148d2a6a = L.marker(
+            var marker_b3b6b7018234de98192645de540334e8 = L.marker(
                 [43.619701, 3.883831],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_3d90ff5d33d59935db78186bea05d95c = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_d7bb31e92aa9d1ae51a8032ac40dff91 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_c0214e3477d28c6b9b3a4308148d2a6a.setIcon(div_icon_3d90ff5d33d59935db78186bea05d95c);
+            marker_b3b6b7018234de98192645de540334e8.setIcon(div_icon_d7bb31e92aa9d1ae51a8032ac40dff91);
         
     
-            marker_c0214e3477d28c6b9b3a4308148d2a6a.bindTooltip(
+            marker_b3b6b7018234de98192645de540334e8.bindTooltip(
                 `<div>
                      
             <h3>Station 040</h3>
             <h4>Jeu de Mail des Abbés</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 8
+                <b>Vélos disponibles:</b> 7
             </div>
             <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: black;&quot;></i> 
-                <b>Places libres:</b> 0
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
+                <b>Places libres:</b> 1
             </div>
         
                  </div>`,
@@ -1722,29 +1722,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_c0214e3477d28c6b9b3a4308148d2a6a.setIcon(div_icon_3d90ff5d33d59935db78186bea05d95c);
+                marker_b3b6b7018234de98192645de540334e8.setIcon(div_icon_d7bb31e92aa9d1ae51a8032ac40dff91);
             
     
-            var marker_7f8c9a59896c794499bc270484ab355c = L.marker(
+            var marker_39af4fa8fc0e2bfd1e0f79a57766a81e = L.marker(
                 [43.639119, 3.828199],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_59cbba01a04052485c2761e778d6d0fd = L.divIcon({
+            var div_icon_8b3cdf67759d5e32dc41df93b0d94041 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_7f8c9a59896c794499bc270484ab355c.setIcon(div_icon_59cbba01a04052485c2761e778d6d0fd);
+            marker_39af4fa8fc0e2bfd1e0f79a57766a81e.setIcon(div_icon_8b3cdf67759d5e32dc41df93b0d94041);
         
     
-            marker_7f8c9a59896c794499bc270484ab355c.bindTooltip(
+            marker_39af4fa8fc0e2bfd1e0f79a57766a81e.bindTooltip(
                 `<div>
                      
             <h3>Station 041</h3>
             <h4>Euromédecine</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 5
@@ -1761,29 +1761,185 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_7f8c9a59896c794499bc270484ab355c.setIcon(div_icon_59cbba01a04052485c2761e778d6d0fd);
+                marker_39af4fa8fc0e2bfd1e0f79a57766a81e.setIcon(div_icon_8b3cdf67759d5e32dc41df93b0d94041);
             
     
-            var marker_1c20688ad37d9afe08f1fc990eb786ee = L.marker(
+            var marker_d66e150f6d39d4337dec250f5c6920f3 = L.marker(
                 [43.619871, 3.873812],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_a221fc1b5d9a6a09b2153b1c9ce6d52a = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_197015e624576bcdddd1b98105c63c54 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_1c20688ad37d9afe08f1fc990eb786ee.setIcon(div_icon_a221fc1b5d9a6a09b2153b1c9ce6d52a);
+            marker_d66e150f6d39d4337dec250f5c6920f3.setIcon(div_icon_197015e624576bcdddd1b98105c63c54);
         
     
-            marker_1c20688ad37d9afe08f1fc990eb786ee.bindTooltip(
+            marker_d66e150f6d39d4337dec250f5c6920f3.bindTooltip(
                 `<div>
                      
             <h3>Station 042</h3>
             <h4>Marie Caizergues</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 3
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 5
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_d66e150f6d39d4337dec250f5c6920f3.setIcon(div_icon_197015e624576bcdddd1b98105c63c54);
+            
+    
+            var marker_0945e49b502112c79095eb4a4f47719f = L.marker(
+                [43.584211, 3.860031],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_02e4ce1364b50384bfd92b5347a558df = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_0945e49b502112c79095eb4a4f47719f.setIcon(div_icon_02e4ce1364b50384bfd92b5347a558df);
+        
+    
+            marker_0945e49b502112c79095eb4a4f47719f.bindTooltip(
+                `<div>
+                     
+            <h3>Station 043</h3>
+            <h4>Sabines</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
+                <b>Vélos disponibles:</b> 5
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Places libres:</b> 3
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_0945e49b502112c79095eb4a4f47719f.setIcon(div_icon_02e4ce1364b50384bfd92b5347a558df);
+            
+    
+            var marker_2bd6802c665605fc18c9344f5f009d89 = L.marker(
+                [43.61467, 3.832624],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_297dd4ecadb31be8a79caf4d6a9c0e44 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_2bd6802c665605fc18c9344f5f009d89.setIcon(div_icon_297dd4ecadb31be8a79caf4d6a9c0e44);
+        
+    
+            marker_2bd6802c665605fc18c9344f5f009d89.bindTooltip(
+                `<div>
+                     
+            <h3>Station 044</h3>
+            <h4>Celleneuve</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 3
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
+                <b>Places libres:</b> 5
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_2bd6802c665605fc18c9344f5f009d89.setIcon(div_icon_297dd4ecadb31be8a79caf4d6a9c0e44);
+            
+    
+            var marker_b103dc31e2df2f9d2bd719b949773573 = L.marker(
+                [43.60585, 3.911576],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_4edda6a8517d5c9d6a789e653476a098 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_b103dc31e2df2f9d2bd719b949773573.setIcon(div_icon_4edda6a8517d5c9d6a789e653476a098);
+        
+    
+            marker_b103dc31e2df2f9d2bd719b949773573.bindTooltip(
+                `<div>
+                     
+            <h3>Station 045</h3>
+            <h4>Jardin de la Lironde</h4>
+            2025-04-09T20:48:08.000Z
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Vélos disponibles:</b> 4
+            </div>
+            <div style=&quot;font-size: 12px;&quot;>
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Places libres:</b> 4
+            </div>
+        
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+                marker_b103dc31e2df2f9d2bd719b949773573.setIcon(div_icon_4edda6a8517d5c9d6a789e653476a098);
+            
+    
+            var marker_0ba88897f86c07479fc9fc6b75cf8fdc = L.marker(
+                [43.621983, 3.855603],
+                {
+}
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
+        
+    
+            var div_icon_62ead88d3c72440d12187d912d0122e9 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+  &quot;className&quot;: &quot;empty&quot;,
+});
+            marker_0ba88897f86c07479fc9fc6b75cf8fdc.setIcon(div_icon_62ead88d3c72440d12187d912d0122e9);
+        
+    
+            marker_0ba88897f86c07479fc9fc6b75cf8fdc.bindTooltip(
+                `<div>
+                     
+            <h3>Station 046</h3>
+            <h4>Père Soulas</h4>
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
                 <b>Vélos disponibles:</b> 2
@@ -1800,185 +1956,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_1c20688ad37d9afe08f1fc990eb786ee.setIcon(div_icon_a221fc1b5d9a6a09b2153b1c9ce6d52a);
+                marker_0ba88897f86c07479fc9fc6b75cf8fdc.setIcon(div_icon_62ead88d3c72440d12187d912d0122e9);
             
     
-            var marker_509a3f2a6fa9947f73ad4e95eab509b3 = L.marker(
-                [43.584211, 3.860031],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_667330a87c7641c0f1496cd881343390 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_509a3f2a6fa9947f73ad4e95eab509b3.setIcon(div_icon_667330a87c7641c0f1496cd881343390);
-        
-    
-            marker_509a3f2a6fa9947f73ad4e95eab509b3.bindTooltip(
-                `<div>
-                     
-            <h3>Station 043</h3>
-            <h4>Sabines</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Vélos disponibles:</b> 4
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Places libres:</b> 4
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_509a3f2a6fa9947f73ad4e95eab509b3.setIcon(div_icon_667330a87c7641c0f1496cd881343390);
-            
-    
-            var marker_e329da2b0a5950a5dfb3d4e6dcb152f8 = L.marker(
-                [43.61467, 3.832624],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_a6ad2b86b4d75a58c99ed4418aa80e02 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_e329da2b0a5950a5dfb3d4e6dcb152f8.setIcon(div_icon_a6ad2b86b4d75a58c99ed4418aa80e02);
-        
-    
-            marker_e329da2b0a5950a5dfb3d4e6dcb152f8.bindTooltip(
-                `<div>
-                     
-            <h3>Station 044</h3>
-            <h4>Celleneuve</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Vélos disponibles:</b> 3
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 5
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_e329da2b0a5950a5dfb3d4e6dcb152f8.setIcon(div_icon_a6ad2b86b4d75a58c99ed4418aa80e02);
-            
-    
-            var marker_ff95b9229d8a000ff8d915363541eac6 = L.marker(
-                [43.60585, 3.911576],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_4f4935973585b2564cec3af0088a5299 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_ff95b9229d8a000ff8d915363541eac6.setIcon(div_icon_4f4935973585b2564cec3af0088a5299);
-        
-    
-            marker_ff95b9229d8a000ff8d915363541eac6.bindTooltip(
-                `<div>
-                     
-            <h3>Station 045</h3>
-            <h4>Jardin de la Lironde</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Vélos disponibles:</b> 4
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
-                <b>Places libres:</b> 4
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_ff95b9229d8a000ff8d915363541eac6.setIcon(div_icon_4f4935973585b2564cec3af0088a5299);
-            
-    
-            var marker_61aa12ad22eecdc7d58074c30205c62b = L.marker(
-                [43.621983, 3.855603],
-                {
-}
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
-        
-    
-            var div_icon_e21798167bd44c2a2dd129e3dc8fe31e = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
-  &quot;className&quot;: &quot;empty&quot;,
-});
-            marker_61aa12ad22eecdc7d58074c30205c62b.setIcon(div_icon_e21798167bd44c2a2dd129e3dc8fe31e);
-        
-    
-            marker_61aa12ad22eecdc7d58074c30205c62b.bindTooltip(
-                `<div>
-                     
-            <h3>Station 046</h3>
-            <h4>Père Soulas</h4>
-            2025-04-09T20:28:08.000Z
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
-                <b>Vélos disponibles:</b> 1
-            </div>
-            <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: green;&quot;></i> 
-                <b>Places libres:</b> 7
-            </div>
-        
-                 </div>`,
-                {
-  &quot;sticky&quot;: true,
-}
-            );
-        
-    
-                marker_61aa12ad22eecdc7d58074c30205c62b.setIcon(div_icon_e21798167bd44c2a2dd129e3dc8fe31e);
-            
-    
-            var marker_dd93e60f5b7cb788ef2922f810a3ee0e = L.marker(
+            var marker_b5f7d2937c9dd67a9d46da76e4ef4837 = L.marker(
                 [43.616812, 3.855075],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_45ca85f645a565e358e824274a6f06ec = L.divIcon({
+            var div_icon_39e80b7308d3359f7d543f4be729f25c = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_dd93e60f5b7cb788ef2922f810a3ee0e.setIcon(div_icon_45ca85f645a565e358e824274a6f06ec);
+            marker_b5f7d2937c9dd67a9d46da76e4ef4837.setIcon(div_icon_39e80b7308d3359f7d543f4be729f25c);
         
     
-            marker_dd93e60f5b7cb788ef2922f810a3ee0e.bindTooltip(
+            marker_b5f7d2937c9dd67a9d46da76e4ef4837.bindTooltip(
                 `<div>
                      
             <h3>Station 047</h3>
             <h4>Place Viala</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: black;&quot;></i> 
                 <b>Vélos disponibles:</b> 0
@@ -1995,29 +1995,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_dd93e60f5b7cb788ef2922f810a3ee0e.setIcon(div_icon_45ca85f645a565e358e824274a6f06ec);
+                marker_b5f7d2937c9dd67a9d46da76e4ef4837.setIcon(div_icon_39e80b7308d3359f7d543f4be729f25c);
             
     
-            var marker_2c8d1e8a7326e6cd311e3f45a1207fe8 = L.marker(
+            var marker_883a980ca2357b24b1f54452e760cd1d = L.marker(
                 [43.621682, 3.83477],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_397a652fe3b2ba5db37694e6866a1f92 = L.divIcon({
+            var div_icon_ec188276a5c46bd0da69925f6e37f147 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_2c8d1e8a7326e6cd311e3f45a1207fe8.setIcon(div_icon_397a652fe3b2ba5db37694e6866a1f92);
+            marker_883a980ca2357b24b1f54452e760cd1d.setIcon(div_icon_ec188276a5c46bd0da69925f6e37f147);
         
     
-            marker_2c8d1e8a7326e6cd311e3f45a1207fe8.bindTooltip(
+            marker_883a980ca2357b24b1f54452e760cd1d.bindTooltip(
                 `<div>
                      
             <h3>Station 048</h3>
             <h4>Hôtel du Département</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 3
@@ -2034,29 +2034,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_2c8d1e8a7326e6cd311e3f45a1207fe8.setIcon(div_icon_397a652fe3b2ba5db37694e6866a1f92);
+                marker_883a980ca2357b24b1f54452e760cd1d.setIcon(div_icon_ec188276a5c46bd0da69925f6e37f147);
             
     
-            var marker_ddc833fbcfe61129fee7005cfc15e6c5 = L.marker(
+            var marker_eba0fc8c6b099b01bcf35df8a2f48ec5 = L.marker(
                 [43.615155, 3.839466],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_22bb1cb8d6a181972c3adcb6defb9f58 = L.divIcon({
+            var div_icon_1c5313ca4ac1459988ed34665bcc7fb6 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_ddc833fbcfe61129fee7005cfc15e6c5.setIcon(div_icon_22bb1cb8d6a181972c3adcb6defb9f58);
+            marker_eba0fc8c6b099b01bcf35df8a2f48ec5.setIcon(div_icon_1c5313ca4ac1459988ed34665bcc7fb6);
         
     
-            marker_ddc833fbcfe61129fee7005cfc15e6c5.bindTooltip(
+            marker_eba0fc8c6b099b01bcf35df8a2f48ec5.bindTooltip(
                 `<div>
                      
             <h3>Station 049</h3>
             <h4>Tonnelles</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 4
@@ -2073,29 +2073,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_ddc833fbcfe61129fee7005cfc15e6c5.setIcon(div_icon_22bb1cb8d6a181972c3adcb6defb9f58);
+                marker_eba0fc8c6b099b01bcf35df8a2f48ec5.setIcon(div_icon_1c5313ca4ac1459988ed34665bcc7fb6);
             
     
-            var marker_8caaad34d966b0356c3016474d18f123 = L.marker(
+            var marker_aa5bae253efef0f1d2d83e94c4b71c52 = L.marker(
                 [43.603889, 3.879362],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_6c88188624660031b6f200744e4daf52 = L.divIcon({
+            var div_icon_eace00be09a84aaafb7758de2dbe7a97 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_8caaad34d966b0356c3016474d18f123.setIcon(div_icon_6c88188624660031b6f200744e4daf52);
+            marker_aa5bae253efef0f1d2d83e94c4b71c52.setIcon(div_icon_eace00be09a84aaafb7758de2dbe7a97);
         
     
-            marker_8caaad34d966b0356c3016474d18f123.bindTooltip(
+            marker_aa5bae253efef0f1d2d83e94c4b71c52.bindTooltip(
                 `<div>
                      
             <h3>Station 050</h3>
             <h4>Parvis Jules Ferry - Gare Saint-Roch</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 4
@@ -2112,29 +2112,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_8caaad34d966b0356c3016474d18f123.setIcon(div_icon_6c88188624660031b6f200744e4daf52);
+                marker_aa5bae253efef0f1d2d83e94c4b71c52.setIcon(div_icon_eace00be09a84aaafb7758de2dbe7a97);
             
     
-            var marker_4a6562dfff592fbd76e55c516a92a5f2 = L.marker(
+            var marker_bff4f489ba5f6d3379a14ed6afd7e816 = L.marker(
                 [43.606036, 3.882393],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_783788185c799ec80fe6e57038c80968 = L.divIcon({
+            var div_icon_23f1509e7fb90468fdf21bbc08082786 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_4a6562dfff592fbd76e55c516a92a5f2.setIcon(div_icon_783788185c799ec80fe6e57038c80968);
+            marker_bff4f489ba5f6d3379a14ed6afd7e816.setIcon(div_icon_23f1509e7fb90468fdf21bbc08082786);
         
     
-            marker_4a6562dfff592fbd76e55c516a92a5f2.bindTooltip(
+            marker_bff4f489ba5f6d3379a14ed6afd7e816.bindTooltip(
                 `<div>
                      
             <h3>Station 051</h3>
             <h4>Pont de Lattes - Gare Saint-Roch</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
                 <b>Vélos disponibles:</b> 1
@@ -2151,24 +2151,24 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_4a6562dfff592fbd76e55c516a92a5f2.setIcon(div_icon_783788185c799ec80fe6e57038c80968);
+                marker_bff4f489ba5f6d3379a14ed6afd7e816.setIcon(div_icon_23f1509e7fb90468fdf21bbc08082786);
             
     
-            var marker_be857c232916776c63a1366d5a0c5578 = L.marker(
+            var marker_57a1966b8198f7359ccbc358bbe8c77a = L.marker(
                 [43.604319, 3.880916],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_a44e9bcb28b8c5f28cf7d6d7bc2a0501 = L.divIcon({
+            var div_icon_aad56e0b3d11d11a06e80dd0e1192362 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: black; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_be857c232916776c63a1366d5a0c5578.setIcon(div_icon_a44e9bcb28b8c5f28cf7d6d7bc2a0501);
+            marker_57a1966b8198f7359ccbc358bbe8c77a.setIcon(div_icon_aad56e0b3d11d11a06e80dd0e1192362);
         
     
-            marker_be857c232916776c63a1366d5a0c5578.bindTooltip(
+            marker_57a1966b8198f7359ccbc358bbe8c77a.bindTooltip(
                 `<div>
                      
             <h3>Station 053</h3>
@@ -2190,29 +2190,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_be857c232916776c63a1366d5a0c5578.setIcon(div_icon_a44e9bcb28b8c5f28cf7d6d7bc2a0501);
+                marker_57a1966b8198f7359ccbc358bbe8c77a.setIcon(div_icon_aad56e0b3d11d11a06e80dd0e1192362);
             
     
-            var marker_72cad2c34656502ee823de8e8d4c8660 = L.marker(
+            var marker_8dfca4eea0443a43e90e39ba38ac4f58 = L.marker(
                 [43.588239, 3.853421],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_63ec94c8da9105e7eccae954e79fa842 = L.divIcon({
+            var div_icon_3be488ed047b2472bd6875d7e6aef2d9 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_72cad2c34656502ee823de8e8d4c8660.setIcon(div_icon_63ec94c8da9105e7eccae954e79fa842);
+            marker_8dfca4eea0443a43e90e39ba38ac4f58.setIcon(div_icon_3be488ed047b2472bd6875d7e6aef2d9);
         
     
-            marker_72cad2c34656502ee823de8e8d4c8660.bindTooltip(
+            marker_8dfca4eea0443a43e90e39ba38ac4f58.bindTooltip(
                 `<div>
                      
             <h3>Station 054</h3>
             <h4>Providence - Ovalie</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: orange;&quot;></i> 
                 <b>Vélos disponibles:</b> 3
@@ -2229,29 +2229,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_72cad2c34656502ee823de8e8d4c8660.setIcon(div_icon_63ec94c8da9105e7eccae954e79fa842);
+                marker_8dfca4eea0443a43e90e39ba38ac4f58.setIcon(div_icon_3be488ed047b2472bd6875d7e6aef2d9);
             
     
-            var marker_1c3c4110d562421784fc2fd7137310cf = L.marker(
+            var marker_245636d3cc226aad0ba7be3f618c7482 = L.marker(
                 [43.558351, 3.963412],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_505298f6056d89ae1daf8477d83cd0b1 = L.divIcon({
+            var div_icon_aaa5adc6f3f74ec47416ca6d46ebb701 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_1c3c4110d562421784fc2fd7137310cf.setIcon(div_icon_505298f6056d89ae1daf8477d83cd0b1);
+            marker_245636d3cc226aad0ba7be3f618c7482.setIcon(div_icon_aaa5adc6f3f74ec47416ca6d46ebb701);
         
     
-            marker_1c3c4110d562421784fc2fd7137310cf.bindTooltip(
+            marker_245636d3cc226aad0ba7be3f618c7482.bindTooltip(
                 `<div>
                      
             <h3>Station 055</h3>
             <h4>Pérols Etang de l Or</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 27
@@ -2268,36 +2268,36 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_1c3c4110d562421784fc2fd7137310cf.setIcon(div_icon_505298f6056d89ae1daf8477d83cd0b1);
+                marker_245636d3cc226aad0ba7be3f618c7482.setIcon(div_icon_aaa5adc6f3f74ec47416ca6d46ebb701);
             
     
-            var marker_17293a761c0cf68640de8c5b9bd09d20 = L.marker(
+            var marker_283d42c1cf31e1fddb113116cb3ba697 = L.marker(
                 [43.614005, 3.873218],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_e4c4a0095ec6281141758a1de115a297 = L.divIcon({
-  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
+            var div_icon_74baabdb5f791b7effba054e937d8547 = L.divIcon({
+  &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_17293a761c0cf68640de8c5b9bd09d20.setIcon(div_icon_e4c4a0095ec6281141758a1de115a297);
+            marker_283d42c1cf31e1fddb113116cb3ba697.setIcon(div_icon_74baabdb5f791b7effba054e937d8547);
         
     
-            marker_17293a761c0cf68640de8c5b9bd09d20.bindTooltip(
+            marker_283d42c1cf31e1fddb113116cb3ba697.bindTooltip(
                 `<div>
                      
             <h3>Station 056</h3>
             <h4>Albert 1er - Cathédrale</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
-                <b>Vélos disponibles:</b> 10
+                <b>Vélos disponibles:</b> 9
             </div>
             <div style=&quot;font-size: 12px;&quot;>
-                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: red;&quot;></i> 
-                <b>Places libres:</b> 2
+                <i class=&quot;fa fa-square-parking&quot; style=&quot;color: orange;&quot;></i> 
+                <b>Places libres:</b> 3
             </div>
         
                  </div>`,
@@ -2307,29 +2307,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_17293a761c0cf68640de8c5b9bd09d20.setIcon(div_icon_e4c4a0095ec6281141758a1de115a297);
+                marker_283d42c1cf31e1fddb113116cb3ba697.setIcon(div_icon_74baabdb5f791b7effba054e937d8547);
             
     
-            var marker_09594dde40fcb4738a10f1c3d154c99d = L.marker(
+            var marker_c5dad44efecd4c64f595740f2249ef29 = L.marker(
                 [43.608996, 3.872752],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_0b01ca8eff5870a90d00f1eec1dd848a = L.divIcon({
+            var div_icon_fc62a1b75aa1e137f08404724718c3f4 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_09594dde40fcb4738a10f1c3d154c99d.setIcon(div_icon_0b01ca8eff5870a90d00f1eec1dd848a);
+            marker_c5dad44efecd4c64f595740f2249ef29.setIcon(div_icon_fc62a1b75aa1e137f08404724718c3f4);
         
     
-            marker_09594dde40fcb4738a10f1c3d154c99d.bindTooltip(
+            marker_c5dad44efecd4c64f595740f2249ef29.bindTooltip(
                 `<div>
                      
             <h3>Station 057</h3>
             <h4>Saint-Guilhem - Courreau</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 5
@@ -2346,29 +2346,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_09594dde40fcb4738a10f1c3d154c99d.setIcon(div_icon_0b01ca8eff5870a90d00f1eec1dd848a);
+                marker_c5dad44efecd4c64f595740f2249ef29.setIcon(div_icon_fc62a1b75aa1e137f08404724718c3f4);
             
     
-            var marker_6d8fb578875d392f2f22fa5b20ee34a2 = L.marker(
+            var marker_278c5e1b9e85f7ff8f900b8975054a87 = L.marker(
                 [43.59562, 3.9235],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_552c18a7466d3734d9307d2467d801d7 = L.divIcon({
+            var div_icon_29f93b114c4a64bc04e462b4ea432bdc = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: red; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_6d8fb578875d392f2f22fa5b20ee34a2.setIcon(div_icon_552c18a7466d3734d9307d2467d801d7);
+            marker_278c5e1b9e85f7ff8f900b8975054a87.setIcon(div_icon_29f93b114c4a64bc04e462b4ea432bdc);
         
     
-            marker_6d8fb578875d392f2f22fa5b20ee34a2.bindTooltip(
+            marker_278c5e1b9e85f7ff8f900b8975054a87.bindTooltip(
                 `<div>
                      
             <h3>Station 059</h3>
             <h4>Sud De France</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: red;&quot;></i> 
                 <b>Vélos disponibles:</b> 2
@@ -2385,29 +2385,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_6d8fb578875d392f2f22fa5b20ee34a2.setIcon(div_icon_552c18a7466d3734d9307d2467d801d7);
+                marker_278c5e1b9e85f7ff8f900b8975054a87.setIcon(div_icon_29f93b114c4a64bc04e462b4ea432bdc);
             
     
-            var marker_a273e9e876a27e3015ea0c1455a0875b = L.marker(
+            var marker_8d6b6b46ce1674712a82a93cfccc3262 = L.marker(
                 [43.608717, 3.880787],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_19abbb874e1851680efb56b680a46b30 = L.divIcon({
+            var div_icon_28016ada46c91f5982f762bccbaab495 = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: orange; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_a273e9e876a27e3015ea0c1455a0875b.setIcon(div_icon_19abbb874e1851680efb56b680a46b30);
+            marker_8d6b6b46ce1674712a82a93cfccc3262.setIcon(div_icon_28016ada46c91f5982f762bccbaab495);
         
     
-            marker_a273e9e876a27e3015ea0c1455a0875b.bindTooltip(
+            marker_8d6b6b46ce1674712a82a93cfccc3262.bindTooltip(
                 `<div>
                      
             <h3>Station 060</h3>
             <h4>Comedie Baudin</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 5
@@ -2424,29 +2424,29 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_a273e9e876a27e3015ea0c1455a0875b.setIcon(div_icon_19abbb874e1851680efb56b680a46b30);
+                marker_8d6b6b46ce1674712a82a93cfccc3262.setIcon(div_icon_28016ada46c91f5982f762bccbaab495);
             
     
-            var marker_e1b2b603b3cf6abced5126e9bad5c37d = L.marker(
+            var marker_285ac2185ca47292c8b4c13e580f5462 = L.marker(
                 [43.609857, 3.883884],
                 {
 }
-            ).addTo(map_e2048e6fd507f64e3f094aa35385e65b);
+            ).addTo(map_d3df6b32bc81c424ff08cebcfef761e9);
         
     
-            var div_icon_bab6176511c7774b8c2087ac2e5e2987 = L.divIcon({
+            var div_icon_749ff92d59e7b9878fa91649b12013de = L.divIcon({
   &quot;html&quot;: &quot;\n            \u003cdiv style=\&quot;\n                display: flex; \n                width: 40px; \n                height: 20px; \n                border: 1px solid black; \n                border-radius: 5px; \n                overflow: hidden;\n            \&quot;\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-bicycle\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n                \u003cdiv style=\&quot;flex: 1; background-color: green; display: flex; align-items: center; justify-content: center;\&quot;\u003e\n                    \u003ci class=\&quot;fa fa-square-parking\&quot; style=\&quot;color: white;\&quot;\u003e\u003c/i\u003e\n                \u003c/div\u003e\n            \u003c/div\u003e\n        &quot;,
   &quot;className&quot;: &quot;empty&quot;,
 });
-            marker_e1b2b603b3cf6abced5126e9bad5c37d.setIcon(div_icon_bab6176511c7774b8c2087ac2e5e2987);
+            marker_285ac2185ca47292c8b4c13e580f5462.setIcon(div_icon_749ff92d59e7b9878fa91649b12013de);
         
     
-            marker_e1b2b603b3cf6abced5126e9bad5c37d.bindTooltip(
+            marker_285ac2185ca47292c8b4c13e580f5462.bindTooltip(
                 `<div>
                      
             <h3>Station 061</h3>
             <h4>Jean de Beins</h4>
-            2025-04-09T20:28:08.000Z
+            2025-04-09T20:48:08.000Z
             <div style=&quot;font-size: 12px;&quot;>
                 <i class=&quot;fa fa-bicycle&quot; style=&quot;color: green;&quot;></i> 
                 <b>Vélos disponibles:</b> 5
@@ -2463,7 +2463,7 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-                marker_e1b2b603b3cf6abced5126e9bad5c37d.setIcon(div_icon_bab6176511c7774b8c2087ac2e5e2987);
+                marker_285ac2185ca47292c8b4c13e580f5462.setIcon(div_icon_749ff92d59e7b9878fa91649b12013de);
             
 </script>
 </html>" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe></div></div>
