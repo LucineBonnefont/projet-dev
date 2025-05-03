@@ -3,7 +3,7 @@ name: Render Disponibilités vélos dans Montpellier
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"  # Automatisation toutes les 15 minutes
+  #  - cron: "*/15 * * * *"  # Automatisation toutes les 15 minutes
 
 jobs:
   render-dispo:
