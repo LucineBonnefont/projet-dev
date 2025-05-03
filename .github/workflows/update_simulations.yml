@@ -3,7 +3,7 @@ name: Render traffic et densité pour le mois dernier
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"  # Automatisation à 03:00 toutes les nuits
+   # - cron: "0 3 * * *"  # Automatisation à 03:00 toutes les nuits
 
 jobs:
   update-traffic-density:
